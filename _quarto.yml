@@ -1,25 +1,62 @@
 project:
   type: book
 
+  preview: 
+    browser: false
+    port: 3000
+
 book:
   title: "Trabajo_Grupal"
-  author: "Norah Jones"
-  date: "29/9/2025"
+  author: 
+  - Xumiao Cheng
+  - Pau Minguet Micó
+  - Javier Ribal del Río
+  date-format: YY
+  date: "2025"
   chapters:
     - index.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
 
+
+execute:
+  echo: false         # Por defecto, NO mostrar código
+  warning: false
+  message: false
+
+lang: es
+
+crossref:
+  fig-title: "Figura"    # Prefijo en español
+  tbl-title: "Tabla"
+
+
+
+citeproc: true
 bibliography: references.bib
+csl: iso690.csl
 
 format:
   html:
     theme:
-      - cosmo
+      - litera
       - brand
-  pdf:
-    documentclass: scrreprt
+    toc: true
+    number-sections: true
 
+  pdf:
+    pdf-engine: lualatex
+    documentclass: scrreprt
+    number-sections: true
+    papersize: a4
+    lof: true         # Índice de figuras (PDF)
+    colorlinks: false
+    template-partials:        # << reemplazamos la sección que crea la portada
+    - before-body.tex
+
+
+filters:
+  - colour.lua
 
 
