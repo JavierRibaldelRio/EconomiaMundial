@@ -23,6 +23,7 @@ La figura queda etiquetada fig-mpg y con su pie de figura.
 This is **also in [testsfdasdf]{color=#ff0000} 
 
 
+----------
 
 
 ```{r}
