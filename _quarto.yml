@@ -16,6 +16,7 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - pages/desa.qmd
     - summary.qmd
     - references.qmd
 
