@@ -16,9 +16,11 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - pages/desa.qmd
-    - summary.qmd
-    - references.qmd
+    - pages/introduccion.qmd
+    - pages/analisis_externo.qmd
+    - pages/analisis_interno.qmd
+    - pages/summary.qmd
+    - pages/references.qmd
 
 
 execute:
