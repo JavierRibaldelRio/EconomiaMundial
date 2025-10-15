@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="es-ES">
   <info>
-    <title>ISO-690 (author-date, Español)</title>
+    <title>ISO-690 (author-date, Spanish)</title>
     <id>http://www.zotero.org/styles/iso690-author-date-es</id>
     <link href="http://www.zotero.org/styles/iso690-author-date-es" rel="self"/>
     <link href="http://www.zotero.org/styles/iso690-author-date-en" rel="template"/>
     <link href="http://www.zotero.org/styles/iso690-author-date-fr-no-abstract" rel="template"/>
-    <link href="https://www.aenor.com/normas-y-libros/buscador-de-normas/UNE?c=N0051162" rel="documentation"/>
-    <link href="http://uc3m.libguides.com/guias_tematicas/citas_bibliograficas/une-iso-690" rel="documentation"/>
+    <link href="http://www.aenor.es/aenor/normas/normas/fichanorma.asp?tipo=N&amp;codigo=N0051162&amp;pdf=#.U3Icf_ldW4J" rel="documentation"/>
     <author>
-      <name>Francisco-Javier Calzada-Prado</name>
+      <name>Javier Calzada-Prado</name>
       <email>fcalzada@bib.uc3m.es</email>
     </author>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on UNE-ISO 690:2013 standard and iso690-author-date-en.csl and iso690-author-date-fr-no-abstract.csl styles</summary>
-    <updated>2025-04-18T15:53:02+00:00</updated>
+    <updated>2016-02-25T04:55:40+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -63,7 +62,7 @@
     <choose>
       <if variable="author editor translator title title-short" match="any">
         <names variable="author">
-          <name form="short" and="text" sort-separator=", " name-as-sort-order="all" delimiter=", " delimiter-precedes-last="never"/>
+          <name form="long" and="text" sort-separator=", " name-as-sort-order="all" delimiter=", " delimiter-precedes-last="never"/>
           <substitute>
             <names variable="editor"/>
             <names variable="translator"/>
@@ -204,10 +203,8 @@
     <group delimiter=", ">
       <text variable="volume" prefix="vol. "/>
       <text variable="issue" prefix="no. "/>
+      <text variable="page" prefix="pp. "/>
     </group>
-  </macro>
-  <macro name="volume">
-    <text variable="volume" prefix="vol. "/>
   </macro>
   <macro name="publisher">
     <choose>
@@ -234,7 +231,7 @@
     <choose>
       <if variable="URL">
         <group prefix=" [" suffix="]">
-          <text term="accessed"/>
+          <text term="accessed" text-case="capitalize-first"/>
           <date variable="accessed">
             <date-part name="day" prefix=" "/>
             <date-part name="month" prefix=" "/>
@@ -262,7 +259,7 @@
       <if type="book thesis manuscript" match="any">
         <text variable="number-of-pages" suffix=" p"/>
       </if>
-      <else-if type="article-journal article-magazine entry entry-dictionary entry-encyclopedia chapter paper-conference article-newspaper" match="any">
+      <else-if type="chapter paper-conference article-newspaper" match="any">
         <text variable="page" prefix="pp. "/>
       </else-if>
       <else-if type="report patent" match="any">
@@ -308,12 +305,12 @@
       </else>
     </choose>
   </macro>
-  <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year" year-suffix-delimiter=", " after-collapse-delimiter="; ">
+  <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year" year-suffix-delimiter=", " after-collapse-delimiter=" ; ">
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", p. ">
         <group delimiter=" ">
           <text macro="author-citation"/>
-          <text macro="year-date"/>
+          <text macro="year-date" prefix=", "/>
         </group>
         <text variable="locator"/>
       </group>
@@ -337,8 +334,7 @@
             <text macro="publisher-place" suffix=": "/>
             <text macro="publisher" suffix=". "/>
             <text macro="accessed" suffix=". "/>
-            <text macro="collection" suffix=", "/>
-            <text macro="volume" suffix=". "/>
+            <text macro="collection" suffix=". "/>
             <text macro="isbn" suffix=". "/>
             <text macro="url" suffix=". "/>
           </group>
@@ -349,12 +345,13 @@
             <text macro="year-date" suffix=". "/>
             <text macro="title" suffix=", "/>
             <text macro="edition" suffix=". "/>
-            <text macro="issue" suffix=", "/>
-            <text macro="page" suffix=". "/>
+            <text macro="issue" suffix=". "/>
             <text macro="accessed" suffix=". "/>
             <text macro="issn" suffix=". "/>
             <text macro="doi" suffix=". "/>
             <text macro="url" suffix=". "/>
+            <text macro="accessed"/>
+
           </group>
         </else-if>
         <else-if type="article-newspaper">
@@ -379,10 +376,9 @@
             <text macro="edition" suffix=". "/>
             <text macro="publisher-place" suffix=": "/>
             <text macro="publisher" suffix=". "/>
+            <text macro="collection" suffix=", "/>
             <text macro="page" suffix=". "/>
             <text macro="accessed" suffix=". "/>
-            <text macro="collection" suffix=", "/>
-            <text macro="volume" suffix=". "/>
             <text macro="isbn" suffix=". "/>
             <text macro="url" suffix=". "/>
           </group>
@@ -395,10 +391,9 @@
             <text macro="edition" suffix=". "/>
             <text macro="publisher-place" suffix=": "/>
             <text macro="publisher" suffix=", "/>
+            <text macro="collection" suffix=", "/>
             <text macro="page" suffix=". "/>
             <text macro="accessed" suffix=". "/>
-            <text macro="collection" suffix=", "/>
-            <text macro="volume" suffix=". "/>
             <text macro="isbn" suffix=". "/>
             <text macro="url" suffix=". "/>
           </group>
@@ -425,8 +420,6 @@
             <text macro="publisher" suffix=", "/>
             <text macro="page" suffix=". "/>
             <text macro="accessed" suffix=". "/>
-            <text macro="collection" suffix=", "/>
-            <text macro="volume" suffix=". "/>
             <text macro="isbn" suffix=". "/>
             <text macro="doi" suffix=". "/>
             <text macro="url" suffix=". "/>
@@ -449,8 +442,8 @@
             <text macro="author" suffix=", "/>
             <text macro="year-date" suffix=". "/>
             <text macro="title" suffix=". "/>
-            <text macro="accessed" suffix=". "/>
             <text macro="url" suffix=". "/>
+            <text macro="accessed"/>
           </group>
         </else-if>
         <else-if type="broadcast motion_picture song" match="any">
