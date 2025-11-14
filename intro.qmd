@@ -10,7 +10,7 @@ ssd
 ```{r}
 #| label: fig-mpg
 #| fig-cap: "Consumo vs potencia en mtcars"
-#| file: R/hola.R   # <-- sin read_chunk
+#| file: R/valor_anyadido.R   # <-- sin read_chunk
 #| eval: true
 #| echo: false
 ```

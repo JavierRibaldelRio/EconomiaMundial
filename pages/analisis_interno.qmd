@@ -1,1 +1,23 @@
 # Análisis interno
+
+
+## Importancia de la agricultura
+
+Con el objetivo de analizar
+```{r}
+#| label: fig-mapa-produccion
+#| fig-cap: "Mapa de la producción agrícola por país, según los valores añadidos a precios básicos"
+#| file: ../R/valor_anyadido.R   # <-- sin read_chunk
+#| eval: true
+#| echo: false
+#| fig-width: 5
+#| fig-height: 5
+
+```
+
+
+
+
+## PAC (Política agrícola común)
+
+La PAC (política agrícola común) es una política creada con el fin de favorecer la relación entre la sociedad y la agricultura, girando en torno a 10 objetivos resumidos en el apoyo a los agricultores y garantizarles un nivel de vida razonable, protección del medio ambiente y gestión sostenible de los recursos, preservación de las zonas rurales y fomentar el relevo generacional. Partiendo de estos objetivos, los países de la UE adoptaron diferentes estrategias, que serán revisador a través de unos informes anuales, y son financiados a través de dos fondos: el Fondo Europeo Agrícola de Garantía y el Fondo Europeo Agrícola de Desarrollo Rural.
