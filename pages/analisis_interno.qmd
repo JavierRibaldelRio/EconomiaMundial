@@ -3,7 +3,7 @@
 
 ## Importancia de la agricultura
 
-Con el objetivo de analizar
+Con el objetivo de analizar la i
 ```{r}
 #| label: fig-mapa-produccion
 #| fig-cap: "Mapa de la producción agrícola por país, según los valores añadidos a precios básicos"
