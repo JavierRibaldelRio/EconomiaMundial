@@ -3,7 +3,7 @@
 
 ## Importancia de la agricultura
 
-Para analizar la improtancia de la agricultura en cada país europeo, recurrimos al valor añadido que en el sector primario, [la  riqueza que generan las actividades que extraen recursos directamente de la naturaleza]{color=#0000ff} (1).
+Para analizar la improtancia de la agricultura en cada país europeo, recurrimos al valor añadido del sector primario, [la  riqueza que generan las actividades que extraen recursos directamente de la naturaleza]{color=#0000ff} (1).
 
 
 Al analizar el mapa, como es esperable se observa como los países que disponen más superficie presentan un mayor valor añadido, siendo Francia, España e Italia los países que más producen 
