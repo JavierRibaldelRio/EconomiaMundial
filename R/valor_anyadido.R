@@ -9,7 +9,7 @@ sf::sf_use_s2(FALSE) # evita cargar s2
 
 eu_countries <- c(
   "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR",
-  "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL",
+  "DE", "EL", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL",
   "PL", "PT", "RO", "SK", "SI", "ES", "SE"
 )
 
