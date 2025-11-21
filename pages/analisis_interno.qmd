@@ -3,7 +3,8 @@
 
 ## Importancia de la agricultura
 
-Con el objetivo de analizar la i
+Para analizar la improtancia de la agricultura en cada país europeo, recurrimos al valor añadido que en el sector primario, [la  riqueza que generan las actividades que extraen recursos directamente de la naturaleza]{color=#0000ff} (1).
+
 ```{r}
 #| label: fig-mapa-produccion
 #| fig-cap: "Mapa de la producción agrícola por país, según los valores añadidos a precios básicos"
