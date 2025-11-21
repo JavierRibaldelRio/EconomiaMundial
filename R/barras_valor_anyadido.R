@@ -1,11 +1,5 @@
 library(eurostat)
 library(tidyverse)
-library(sf)
-library(giscoR)
-library(stringi)
-
-
-sf::sf_use_s2(FALSE) # evita cargar s2
 
 eu_countries <- c(
   "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR",
@@ -24,13 +18,37 @@ df <- get_eurostat("aact_eaa01", time_format = "num", unit = "T") |>
   mutate(
     pais = geo,
     value = values,
+    names = fct_recode(pais,
+      "Francia" = "FR",
+      "Italia" = "IT",
+      "España" = "ES",
+      "Alemania" = "DE",
+      "Países Bajos" = "NL",
+      "Polonia" = "PL",
+      "Rumanía" = "RO",
+      "Portugal" = "PT",
+      "Hungría" = "HU",
+      "Bélgica" = "BE"
+    ),
     .keep = "none"
   )
 
 df |> 
-    ggplot(aes(x = pais, y = value)) + 
-        geom_bar()
-
-ggsave("barras.png")
-
-print(df)
+  slice_max(order_by = value, n = 10) |> 
+  ggplot(aes(x = fct_reorder(names, value, .desc = TRUE), y = value)) + 
+  geom_col(width = 0.7, fill = "#003399") +
+  ylim(0,60000) +
+  geom_text(aes(label =  format(value, big.mark = ".", decimal.mark = ",",scientific = FALSE)), vjust = -0.4) +
+  labs(
+    x = NULL,
+    y = "Millones de Euros",
+    title    = "Los 10 países de la UE-27 con mayor producción agrícola vegetal",
+    subtitle = "Valores Añadidos a precios básicos corrientes (millones de euros, 2023)",
+    caption  = "Elaboración propia con R.  Eurostat (aact_eaa01, P11 – Output of crop production)."
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size=11),
+    plot.subtitle = element_text(size=9),
+    plot.caption = element_text(hjust = 0.3, size = 8)
+  )
