@@ -82,7 +82,8 @@ map_eu |>
   scale_fill_gradient(
     low  = "#cfe1ff", # tinte claro
     high = "#003399", # azul UE
-    name = "Porcentaje del PIB" # <-- etiqueta de unidad
+    name = "Porcentaje del PIB", # <-- etiqueta de unidad
+    labels = scales::label_number(suffix = "%")
   ) +
   labs(
     title    = "Participación de la agricultura en el PIB de la UE-27",
