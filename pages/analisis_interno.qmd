@@ -7,29 +7,27 @@ Para analizar la improtancia de la agricultura en cada país europeo, recurrimos
 Al analizar el mapa, como es esperable se observa como los países que disponen más superficie presentan un mayor valor añadido, siendo Francia, España e Italia los países que más producen
 
 
-::: {layout-ncol=2}
+::: {#fig-mapa-barra-prod layout-ncol=2}
 ```{r}
-#| label: fig-mapa-produccion
-#| fig-cap: "Mapa de la producción agrícola por país, según los valores añadidos a precios básicos"
-#| file: ../R/valor_anyadido.R   # <-- sin read_chunk
-#| eval: true
-#| echo: false
-#| fig-width: 5
-#| fig-height: 5
-
-```
-
-```{r}
-#| label: fig-barras-produccion
-#| fig-cap: "Gráfica de barras de los 10 países (dentro de la UE-27) con mayor producción agricola"
 #| file: ../R/barras_valor_anyadido.R   # <-- sin read_chunk
 #| eval: true
 #| echo: false
-#| fig-width: 5
+#| fig-width: 6
 #| fig-height: 5
+#| out-width: "100%"
 
 ```
 
+```{r}
+#| file: ../R/valor_anyadido.R   # <-- sin read_chunk
+#| eval: true
+#| echo: false
+#| fig-width: 6
+#| fig-height: 5
+#| out-width: "100%"
+
+```
+Distribución espacial y ranking de la producción agrícola vegetal en la UE-27 (2023).
 :::
 
 ## PAC (Política Agrícola Común)

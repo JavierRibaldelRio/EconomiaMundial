@@ -1,5 +1,6 @@
 library(eurostat)
 library(tidyverse)
+library(scales)
 
 eu_countries <- c(
   "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR",
@@ -37,11 +38,14 @@ df |>
   slice_max(order_by = value, n = 10) |>
   ggplot(aes(x = fct_reorder(pais, value, .desc = TRUE), y = value)) +
   geom_col(width = 0.7, fill = "#003399") +
-  ylim(0, 60000) +
-  geom_text(aes(label = format(value, big.mark = ".", decimal.mark = ",", scientific = FALSE)), vjust = -0.4) +
+  geom_text(aes(label = number(value, scale = 0.001, accuracy = 1)), vjust = -0.4) +
+  scale_y_continuous(
+    labels = scales::label_number(scale = 0.001),
+    expand = expansion(mult = c(0, 0.15))
+  ) +
   labs(
     x = NULL,
-    y = "Millones de Euros",
+    y = "Miles de millones de €",
     title = "Los 10 países de la UE-27 con mayor producción agrícola vegetal",
     subtitle = "Valores Añadidos a precios básicos corrientes (millones de euros, 2023)",
     caption = "Elaboración propia con R.  Eurostat (aact_eaa01, P11 – Output of crop production)."
