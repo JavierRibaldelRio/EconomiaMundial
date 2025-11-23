@@ -2,9 +2,9 @@
 
 ## Importancia de la agricultura
 
-Para analizar la improtancia de la agricultura en cada país europeo, recurrimos al valor añadido que en el sector primario, [la riqueza que generan las actividades que extraen recursos directamente de la naturaleza]{color="#0000ff"} (1).
+Para analizar la improtancia de la agricultura en cada país europeo, recurrimos al valor añadido que en el sector primario, [la riqueza que generan las actividades que extraen recursos directamente de la naturaleza]{color="#0000ff"} (1). [@fig-barras-produccion]
 
-Al analizar el mapa, como es esperable se observa como los países que disponen más superficie presentan un mayor valor añadido, siendo Francia, España e Italia los países que más producen
+Al analizar el mapa, como es esperable se observa como los países que disponen más superficie presentan un mayor valor añadido, siendo Francia, España e Italia los países que más producen. Aunque también se aprecia el efecto de los climas mas adversos, puesto que Suecia y Finlandia a pesar de disponer una gran superficie, su clima boreal dificulta la producción vegetal. 
 
 
 ::: {#fig-mapa-barra-prod layout-ncol=2}
@@ -30,6 +30,20 @@ Al analizar el mapa, como es esperable se observa como los países que disponen 
 Distribución espacial y ranking de la producción agrícola vegetal en la UE-27 (2023).
 :::
 
+Con la intención de determinar el grado de importancia de la agricultura en cada país se ha calculado el porcentaje del PIB que supone la agricultura en cada país [Véase @fig-pib]. [Al analizar la gráfica se observa cómo los países con mayor valor añadido absoluto no son los que presentan un mayor peso relativo de la agricultura en el PIB. En este caso destacan economías menos desarrolladas de Europa del Este, como Rumanía y Bulgaria, así como Grecia, donde la agricultura alcanza una participación notablemente superior en la actividad económica]{color="#0000ff"} (2).
+
+```{r}
+#| label: fig-pib
+#| fig-cap: "Gráfica de barras de los 10 países (dentro de la UE-27) con mayor producción agricola"
+#| file: ../R/porcentaje_pib.R   # <-- sin read_chunk
+#| eval: true
+#| echo: false
+#| fig-width: 5
+#| fig-height: 5
+```
+
+
+
 ## PAC (Política Agrícola Común)
 
 La PAC (Política Agrícola Común) es una política creada con el fin de favorecer la relación entre la sociedad y la agricultura, esta gira en torno a 10 objetivos resumibles en el apoyo a los agricultores y garantizarles un nivel de vida razonable, protección del medio ambiente y gestión sostenible de los recursos, preservación de las zonas rurales, y fomentar el relevo generacional. Partiendo de estos objetivos, los países de la UE adoptaron diferentes estrategias, que serán revisador a través de unos informes anuales, y son financiados a través de dos fondos: el Fondo Europeo Agrícola de Garantía y el Fondo Europeo Agrícola de Desarrollo Rural.
@@ -37,6 +51,6 @@ La PAC (Política Agrícola Común) es una política creada con el fin de favore
 ![Noviembre de 2024 - Fuentes: Gasto de la PAC: Comisión Europea, Dirección General de Agricultura y Desarrollo Rural (Informe Financiero), incluidos los pagos de NextGenerationEU para el período 2021-2022](../img/GraphPAC.png){#fig-graficaPAC}
 
 
-"Muchos productores de la UE dependen en gran medida de las ayudas públicas \[...\]. El porcentaje medio en la UE de pagos directos en la renta de los factores agrícolas durante el período de 2018-2022 se situó en el 23 %. \[...\] Teniendo en cuenta todas las subvenciones, el porcentaje de la ayuda total de la UE a la renta agrícola alcanzó una media del 33 % en la Unión." En la gráfica podemos observar que los países que más dependen son Estonia, Eslovaquia, Letonia, Lituania y Suecia, superando el 50%, debido a diferentes motivos como productos \[más sensibles a la volatibilidad de precios internacionales, productividad baja debido a climas más duros, suelos menos fértiles\] {color=#00FF00} (2), entre otros.
+"Muchos productores de la UE dependen en gran medida de las ayudas públicas \[...\]. El porcentaje medio en la UE de pagos directos en la renta de los factores agrícolas durante el período de 2018-2022 se situó en el 23 %. \[...\] Teniendo en cuenta todas las subvenciones, el porcentaje de la ayuda total de la UE a la renta agrícola alcanzó una media del 33 % en la Unión." En la gráfica podemos observar que los países que más dependen son Estonia, Eslovaquia, Letonia, Lituania y Suecia, superando el 50%, debido a diferentes motivos como productos [más sensibles a la volatibilidad de precios internacionales, productividad baja debido a climas más duros, suelos menos fértiles]{color=#00FF00} (2), entre otros.
 
 En España, estas ayudas suponen el 20% de los ingresos agrarios, impactando en la vida de más de 700 mil productores españoles de forma directa, e indirectamente en el ecosistema y en la sociedad. La implementación del nuevo plan estratégico para 2023-2027 destaca especialmente en la sostenibilidad y la digitalización del sector agrícola, promoviendo incentivos financieros hacia los agricultores que adopten prácticas agrícolas sostenibles, buscando el equilibrio entre la agricultura y el medio ambiente, y por otra parte incrementar los fondos en la capacitación y orientación de nuevas tecnologías en el ámbito rural.
