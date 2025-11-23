@@ -18,24 +18,24 @@ df <- get_eurostat("aact_eaa01", time_format = "num", unit = "T") |>
   mutate(
     pais = geo,
     value = values,
-    names = fct_recode(pais,
-      "Francia" = "FR",
-      "Italia" = "IT",
-      "España" = "ES",
-      "Alemania" = "DE",
-      "Países Bajos" = "NL",
-      "Polonia" = "PL",
-      "Rumanía" = "RO",
-      "Portugal" = "PT",
-      "Hungría" = "HU",
-      "Bélgica" = "BE"
-    ),
+    # names = fct_recode(pais,
+    #   "Francia" = "FR",
+    #   "Italia" = "IT",
+    #   "España" = "ES",
+    #   "Alemania" = "DE",
+    #   "Países Bajos" = "NL",
+    #   "Polonia" = "PL",
+    #   "Rumanía" = "RO",
+    #   "Portugal" = "PT",
+    #   "Hungría" = "HU",
+    #   "Bélgica" = "BE"
+    # ),
     .keep = "none"
   )
 
 df |>
   slice_max(order_by = value, n = 10) |>
-  ggplot(aes(x = fct_reorder(names, value, .desc = TRUE), y = value)) +
+  ggplot(aes(x = fct_reorder(pais, value, .desc = TRUE), y = value)) +
   geom_col(width = 0.7, fill = "#003399") +
   ylim(0, 60000) +
   geom_text(aes(label = format(value, big.mark = ".", decimal.mark = ",", scientific = FALSE)), vjust = -0.4) +
@@ -52,4 +52,3 @@ df |>
     plot.subtitle = element_text(size = 9),
     plot.caption = element_text(hjust = 0.3, size = 8)
   )
-ggsave("lio.png")

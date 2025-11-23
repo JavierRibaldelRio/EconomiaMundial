@@ -74,6 +74,3 @@ map_eu |>
     plot.subtitle = element_text(size=9),
     plot.caption = element_text(hjust = 0.3, size = 8)
   )
-
-
-ggsave("hola.png")
