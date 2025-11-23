@@ -32,9 +32,9 @@ Al analizar el mapa, como es esperable se observa como los países que disponen 
 
 :::
 
-## PAC (Política agrícola común)
+## PAC (Política Agrícola Común)
 
-La PAC (política agrícola común) es una política creada con el fin de favorecer la relación entre la sociedad y la agricultura, girando en torno a 10 objetivos resumidos en el apoyo a los agricultores y garantizarles un nivel de vida razonable, protección del medio ambiente y gestión sostenible de los recursos, preservación de las zonas rurales y fomentar el relevo generacional. Partiendo de estos objetivos, los países de la UE adoptaron diferentes estrategias, que serán revisador a través de unos informes anuales, y son financiados a través de dos fondos: el Fondo Europeo Agrícola de Garantía y el Fondo Europeo Agrícola de Desarrollo Rural.
+La PAC (Política Agrícola Común) es una política creada con el fin de favorecer la relación entre la sociedad y la agricultura, esta gira en torno a 10 objetivos resumibles en el apoyo a los agricultores y garantizarles un nivel de vida razonable, protección del medio ambiente y gestión sostenible de los recursos, preservación de las zonas rurales, y fomentar el relevo generacional. Partiendo de estos objetivos, los países de la UE adoptaron diferentes estrategias, que serán revisador a través de unos informes anuales, y son financiados a través de dos fondos: el Fondo Europeo Agrícola de Garantía y el Fondo Europeo Agrícola de Desarrollo Rural.
 
 ![Noviembre de 2024 - Fuentes: Gasto de la PAC: Comisión Europea, Dirección General de Agricultura y Desarrollo Rural (Informe Financiero), incluidos los pagos de NextGenerationEU para el período 2021-2022](../img/GraphPAC.png){#fig-graficaPAC}
 

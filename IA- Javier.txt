@@ -1,2 +1,20 @@
 https://chatgpt.com/share/69205cbb-cac0-8009-b557-1fff662ad2a5
 Uso de la IA para poder tener en resumen la dependencia de la PAC de diferentes países en conjunto para poder agilizar la búsqueda de información.
+(1)
+
+que es el valor añadido explicado de forma simple
+
+El **valor añadido del sector primario** es la **riqueza que generan las actividades que extraen recursos directamente de la naturaleza**, como la agricultura, la ganadería, la pesca o la minería.
+
+Explicado de forma simple:
+
+1. El sector primario **obtiene** recursos naturales (trigo, leche, pescado, minerales).
+2. **Vende** esos productos sin transformarlos (o con una transformación mínima).
+3. El **valor añadido** es la diferencia entre el valor de lo que vende y el coste de los insumos que necesita para producir (semillas, pienso, fertilizantes, combustibles, etc.).
+
+**Ejemplo:**
+Un agricultor vende trigo por 1000 euros.
+Sus costes de semillas, fertilizantes y gasoil suman 400 euros.
+El **valor añadido** generado por su explotación es **600 euros**.
+
+Ese valor añadido sirve para cubrir salarios, amortizaciones, impuestos y beneficio del agricultor.
