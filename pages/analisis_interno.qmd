@@ -2,7 +2,7 @@
 
 ## Importancia de la agricultura
 
-Para analizar la improtancia de la agricultura en cada país europeo, recurrimos al valor añadido que en el sector primario, [la riqueza que generan las actividades que extraen recursos directamente de la naturaleza]{color="#0000ff"} (1). [@fig-barras-produccion]
+Para analizar la improtancia de la agricultura en cada país europeo, recurrimos al valor añadido que en el sector primario, [la riqueza que generan las actividades que extraen recursos directamente de la naturaleza]{color="#0000ff"} (1). [@fig-mapa-barra-prod]
 
 Al analizar el mapa, como es esperable se observa como los países que disponen más superficie presentan un mayor valor añadido, siendo Francia, España e Italia los países que más producen. Aunque también se aprecia el efecto de los climas mas adversos, puesto que Suecia y Finlandia a pesar de disponer una gran superficie, su clima boreal dificulta la producción vegetal. 
 
@@ -42,6 +42,24 @@ Con la intención de determinar el grado de importancia de la agricultura en cad
 #| fig-height: 5
 ```
 
+## Variedades
+
+```{r}
+#| label: fig-peu
+#| fig-cap: "Gráfica de barras de los 10 países (dentro de la UE-27) con mayor producción agricola"
+#| file: ../R/productos_eu.R   # <-- sin read_chunk
+#| eval: true
+#| echo: false
+#| fig-width: 10
+#| fig-height: 20
+#| out-width: "100%"
+#| out-height: "100%"
+
+```
+
+
+
+Con la intención de determinar el grado de importancia de la agricultura en cada país se ha calculado el porcentaje del PIB que supone la agricultura en cada país [Véase @fig-pib]. [Al analizar la gráfica se observa cómo los países con mayor valor añadido absoluto no son los que presentan un mayor peso relativo de la agricultura en el PIB. En este caso destacan economías menos desarrolladas de Europa del Este, como Rumanía y Bulgaria, así como Grecia, donde la agricultura alcanza una participación notablemente superior en la actividad económica]{color="#0000ff"} (2).
 
 
 ## PAC (Política Agrícola Común)

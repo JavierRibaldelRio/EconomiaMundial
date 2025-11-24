@@ -1,5 +1,6 @@
 project:
   type: book
+  
 
   preview: 
     browser: false
@@ -29,6 +30,7 @@ execute:
   echo: false         # Por defecto, NO mostrar código
   warning: false
   message: false
+  cache: true
 
 lang: es
 
