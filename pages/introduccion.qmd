@@ -7,7 +7,7 @@ En el pasado los humanos fueron nómadas, erraban por el mundo buscando alimento
 
 ## Importancia de la agricultura en la Unión Europea
 
-En la actualidad, la economía de la Unión Europea (UE) se caracteriza por una gran importancia del sector terciario o servicios, el cual abarca un 70% del PIB.En cambio, el sector primario solo concentra un 2%, donde la agricultura representa 65% del sector. En Europa Occidental predomina la agricultura intensiva que se caracteriza por terrenos pequeños pero fértiles, que proporciona un gran rendimiento. Por otra parte, en Europa Central y Oriental predomina la agricultura extensiva, caracterizada por terrenos de mayor superficie de los cuales se obtiene una mayor producciones, a costa de un menor rendimiento. [@wiki_eu]
+En la actualidad, la economía de la Unión Europea (UE) se caracteriza por una gran importancia del sector terciario o servicios, el cual abarca un 70% del PIB. En cambio, el sector primario solo concentra un 2%, donde la agricultura representa 65% del sector. En Europa Occidental predomina la agricultura intensiva que se caracteriza por terrenos pequeños pero fértiles, que proporciona un gran rendimiento. Por otra parte, en Europa Central y Oriental predomina la agricultura extensiva, caracterizada por terrenos de mayor superficie de los cuales se obtiene una mayor producciones, a costa de un menor rendimiento. [@wiki_eu]
 
 Aún siendo bajo el porcentaje del sector agrícola en el PIB, en 2022, el 40% de la superficie total de la UE fueron destinadas a la agricultura, siendo la actividad económica con mayor uso de la superficie de la UE. [@eurostat_agriculture]
 
