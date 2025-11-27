@@ -1,5 +1,6 @@
 library(eurostat)
 library(tidyverse)
+library(scales)
 
 eu_countries <- c(
   "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR",
@@ -77,25 +78,27 @@ df <- get_eurostat("apro_cpsh1", time_format = "num", unit = "T") |>
   summarise(
     mean_value = mean(value, na.rm = TRUE),
     .groups = "drop"
-  )
-
-# Para España el color rojo, para los demás gris
-rojo_espana <- ifelse(df$names == "España (ES)", "#E41A1C", "#003399")
-  
-# Aseguramos que ggplot sepa el color de España
-names(rojo_espana) <- df$names
+  ) |> 
+  group_by(crop) |> 
+  summarise(
+    total_by_crop = sum(mean_value, na.rm = TRUE),
+    .groups = "drop"
+  ) |> 
+  filter(crop != "Forrajes de tierras arables")
 
 df |>
-  ggplot(aes(y = mean_value, x = pais, fill = names)) +
-  geom_col() +
-  facet_wrap(~crop, nrow = 6, ncol = 2, scales = "free") +
-  scale_y_continuous(expand = expansion(mult  = c(0, 0.5))) +
-  scale_fill_manual(values = rojo_espana) + 
+  ggplot(aes(y = reorder(crop, -total_by_crop), x = total_by_crop)) +
+  geom_col(fill = "#003399") +
   labs(
-    x = NULL,
-    y = "Miles de toneladas",
+    x = "Miles de toneladas",
+    y = NULL,
     title = "Panorama de la Producción Vegetal en la Unión Europea (2022 - 2024)",
     caption = "Elaboración propia con R. Eurostat (apro_cpsh1, Crop production in EU standard humidity)."
+  ) +
+  scale_x_continuous(
+    labels = scales::label_number(big.mark = ".", decimal.mark = ","), 
+    expand = expansion(mult  = c(0, 0.075)),
+    limits = c(0, 300000)
   ) +
   theme_bw() +
   theme(
@@ -104,5 +107,5 @@ df |>
     axis.line = element_line(color = "black", linewidth = 0.5),
     axis.ticks = element_line(color = "black"),
     panel.border = element_rect(color = "black", fill = NA, linewidth = 0.5),
-    axis.text.x = element_text(face = "bold", size = 7)
+    axis.text.x = element_text(face = "bold", size = 8)
   )
