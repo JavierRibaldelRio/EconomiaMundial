@@ -73,7 +73,7 @@ La PAC (Política Agrícola Común) es una política creada por la UE con el fin
 - la preservación de las zonas rurales;
 - el  fomento del relevo generacional. [@eurostat_PAC_key_objectives]
 
-Para el cumplimiento de estos objetivos, los países de la UE han adoptado diferentes políticas, revisadas en informes anuales. Estas políticas son  principalmente financiadas a través de dos fondos: el Fondo Europeo Agrícola de Garantía y el Fondo Europeo Agrícola de Desarrollo Rural. [@eurostat_PAC]
+Para el cumplimiento de estos objetivos, los países de la UE han adoptado diferentes políticas, revisadas en informes anuales. Estas políticas son principalmente financiadas a través de dos fondos: el Fondo Europeo Agrícola de Garantía y el Fondo Europeo Agrícola de Desarrollo Rural. [@eurostat_PAC]
 
 
 
