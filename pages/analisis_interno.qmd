@@ -2,9 +2,9 @@
 
 ## Importancia de la agricultura
 
-Para analizar la improtancia de la agricultura en cada país europeo, recurrimos al valor añadido que en el sector primario, [la riqueza que generan las actividades que extraen recursos directamente de la naturaleza]{color="#0000ff"} (1). 
+Para analizar la improtancia de la agricultura en cada país europeo, recurrimos al valor añadido que se produce en el sector primario, [la riqueza que generan las actividades que extraen recursos directamente de la naturaleza]{color="#0000ff"} (1). 
 
-Al analizar el mapa \[véase @fig-mapa-barra-prod\], como es esperable se observa como los países que disponen más superficie presentan un mayor valor añadido, siendo Francia, España e Italia los países que más producen. Aunque también se aprecia el efecto de los climas mas adversos, puesto que Suecia y Finlandia a pesar de disponer una gran superficie, su clima boreal dificulta la producción vegetal. 
+Al analizar el mapa \[véase @fig-mapa-barra-prod\], como es esperable se observa como los países que disponen más superficie presentan un mayor valor añadido, siendo Francia, España e Italia los países que más producen. or otro lado, se aprecia el efecto de los climas más adversos, puesto que Suecia y Finlandia, a pesar de disponer una gran superficie, su clima boreal dificulta la producción vegetal. 
 
 
 ::: {#fig-mapa-barra-prod layout-ncol=2}
@@ -28,7 +28,7 @@ Al analizar el mapa \[véase @fig-mapa-barra-prod\], como es esperable se observ
 Distribución espacial y ranking de la producción agrícola vegetal en la UE-27 (2023).
 :::
 
-Con la intención de determinar el grado de importancia de la agricultura en cada país se ha calculado el porcentaje del PIB que supone la agricultura en cada país \[véase @fig-pib\]. [Al analizar la 
+Con la intención de determinar el grado de importancia de la agricultura en cada país se ha calculado el porcentaje del PIB que supone la agricultura en cada país \[véase @fig-pib\]. [Al analizar la figura
  se observa cómo los países con mayor valor añadido absoluto no son los que presentan un mayor peso relativo de la agricultura en el PIB. En este caso destacan economías menos desarrolladas de Europa del Este, como Rumanía y Bulgaria, así como Grecia, donde la agricultura alcanza una participación notablemente superior en la actividad económica]{color="#0000ff"} (2).
 
 ```{r}
