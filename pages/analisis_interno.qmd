@@ -4,7 +4,7 @@
 
 Para analizar la improtancia de la agricultura en cada país europeo, recurrimos al valor añadido que se produce en el sector primario, [la riqueza que generan las actividades que extraen recursos directamente de la naturaleza]{color="#0000ff"} (1). 
 
-Al analizar el mapa \[véase @fig-mapa-barra-prod\], como es esperable se observa como los países que disponen más superficie presentan un mayor valor añadido, siendo Francia, España e Italia los países que más producen. or otro lado, se aprecia el efecto de los climas más adversos, puesto que Suecia y Finlandia, a pesar de disponer una gran superficie, su clima boreal dificulta la producción vegetal. 
+Al analizar el mapa \[véase @fig-mapa-barra-prod\], como es esperable se observa como los países que disponen más superficie presentan un mayor valor añadido, siendo Francia, España e Italia los países que más producen. Por otro lado, se aprecia el efecto de los climas más adversos, puesto que  en Suecia y Finlandia, su clima boreal dificulta la producción vegetal [@ign_clima_eu]. 
 
 
 ::: {#fig-mapa-barra-prod layout-ncol=2}
@@ -33,13 +33,13 @@ Con la intención de determinar el grado de importancia de la agricultura en cad
 
 ```{r}
 #| label: fig-pib
-#| fig-cap: "Gráfica de barras de los 10 países (dentro de la UE-27) con mayor producción agricola"
-#| fig-pos: "H"
+#| fig-cap: "Grado de dependencia económica del sector primario en la UE (2023)."
 #| file: ../R/porcentaje_pib.R   # <-- sin read_chunk
 #| eval: true
 #| echo: false
-#| fig-width: 5
-#| fig-height: 3
+#| fig-width: 7
+#| fig-height: 5
+#| out-width: "100%"
 ```
 
 
@@ -47,7 +47,7 @@ Con la intención de determinar el grado de importancia de la agricultura en cad
 
 ## Variedades
 
-En relación a las variedades \[veáse @fig-peu-uni\] se observa como los [cultivos herbáceos]{color="#0000ff"} (3) (cutivos de raíz y cereales) son los más producidos, esto se debe principalmente a que Europa es una zona altamente productiva para los cereales dado su  relieve geográfico y sus temperaturas cálidas. Además, el cereal se consume más que otros, lo que también explica su mayor presencia en la producción. [@kray].
+En relación a las variedades \[veáse @fig-peu-uni\] se observa como los [cultivos herbáceos]{color="#0000ff"} (3) (cutivos de raíz y cereales) son los más producidos, esto se debe principalmente a que Europa es una zona altamente productiva para los cereales dado su relieve geográfico, clima templado, estaciones marcadas y suficiente pluviometría. Además, el cereal se consume más que otros, lo que también explica su mayor presencia en la producción. [@kray].
 
 
 ```{r}
@@ -63,14 +63,14 @@ En relación a las variedades \[veáse @fig-peu-uni\] se observa como los [culti
 
 ```
 
-Al analizar la producción por país \[véase @fig-peu\], se aprecia que gran parte de la producción proviene mayoritariamente de centro Europa (Alemania y Polonia) o del suroeste (Francia, España e Italia). Respecto al resto de países de Europa, normalmente destacan en un determinado producto, por ejemplo Hungria en los cultivos industriales.
+Al analizar la producción por país \[véase @fig-peu\], se aprecia que gran parte de la producción proviene mayoritariamente de centro Europa (Alemania y Polonia) o del suroeste (Francia, España e Italia). Respecto al resto de países de Europas, normalmente destacan en un determinado producto, por ejemplo Hungria en los cultivos industriales (girasol, maíz, tabaco...) [@wiki_economia_hu].
 
 
-En el caso específico de España, se observa como a pesar de que su peso es menor en las categorías principales, destaca en categorías específicas como: los citricos, las olivas o la frasa.
+En el caso específico de España, se observa como a pesar de que su peso es menor en las categorías principales (cereales y forrajes de tierras arables), es líder de la UE en categorías específicas como: los citricos, las hortalizas, las olivas o la fresa.
 
 ```{r}
 #| label: fig-peu
-#| fig-cap: "Gráfica de barras de los 10 países (dentro de la UE-27) con mayor producción agricola"
+#| fig-cap: "Panorama sectorial de la producción vegetal en la UE-27 (2022-2024). Desglose por grupos de cultivo expresado en miles de toneladas, destacando en rojo la producción de España."
 #| file: ../R/productos_eu.R   # <-- sin read_chunk
 #| eval: true
 #| echo: false
@@ -104,7 +104,7 @@ Para el cumplimiento de estos objetivos, los países de la UE han adoptado difer
 
 
 
-En relación al reparto de subvenciones y ayudas, según Eurostat *"Muchos productores de la UE dependen en gran medida de las ayudas públicas \[...\]. El porcentaje medio en la UE de pagos directos en la renta de los factores agrícolas durante el período de 2018-2022 se situó en el 23 %. \[...\] Teniendo en cuenta todas las subvenciones, el porcentaje de la ayuda total de la UE a la renta agrícola alcanzó una media del 33 % en la Unión."* [@eurostat_PAC_gastos] En la @fig-graficaPAC se aprecia como los países más dependientes son Estonia, Eslovaquia, Letonia, Lituania y Suecia, donde más del 50% de los ingresos de la agricultura se corresponden a ayudas. Esta dependencia se debe principalmente al tipo de cultivos [más sensibles a la volatibilidad de precios internacionales, productividad baja debido a climas más duros, suelos menos fértiles...]{color=#00FF00} (2).
+En relación al reparto de subvenciones y ayudas, según Eurostat *"Muchos productores de la UE dependen en gran medida de las ayudas públicas \[...\]. El porcentaje medio en la UE de pagos directos en la renta de los factores agrícolas durante el período de 2018-2022 se situó en el 23 %. \[...\] Teniendo en cuenta todas las subvenciones, el porcentaje de la ayuda total de la UE a la renta agrícola alcanzó una media del 33 % en la Unión."* [@eurostat_PAC_gastos] En la @fig-graficaPAC se aprecia como los países más dependientes son Estonia, Eslovaquia, Letonia, Lituania y Suecia, donde más del 50% de los ingresos de la agricultura se corresponden a ayudas. Esta dependencia se debe principalmente [a la predominancia de cultivos extensivos con menores rendimientos naturales debido a la latitud, así como a unos costes de producción más elevados derivados de las limitaciones del suelo y el clima]{color=#00FF00} (2).
 
 
 ![Proporción de los pagos directos y los subsidios totales en los ingresos de los factores agrícolas](../img/GraphPAC.png){#fig-graficaPAC fig-pos="H"}
