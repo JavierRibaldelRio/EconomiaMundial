@@ -90,10 +90,10 @@ dataset_imports <- lapply(nombres_archivos_import, function(archivo) {
 cat("Dimensiones finales:", nrow(dataset_imports), "filas y", ncol(dataset_imports), "columnas.\n")
 
 # CSV 
-write.csv(dataset_imports, "dataset_agrifood_imports.csv", row.names = FALSE)
+# write.csv(dataset_imports, "dataset_agrifood_imports.csv", row.names = FALSE)
 
 # Formato R
-saveRDS(dataset_imports, "dataset_agrifood_imports.rds")
+saveRDS(dataset_imports, "data/dataset_agrifood_imports.rds")
 
 
 ## Exports ----------------------------------------------------------------
@@ -111,7 +111,7 @@ dataset_exports <- lapply(nombres_archivos_export, function(archivo) {
 cat("Dimensiones finales:", nrow(dataset_exports), "filas y", ncol(dataset_exports), "columnas.\n")
 
 # CSV 
-write.csv(dataset_exports, "dataset_agrifood_exports.csv", row.names = FALSE)
+# write.csv(dataset_exports, "dataset_agrifood_exports.csv", row.names = FALSE)
 
 # Formato R
-saveRDS(dataset_exports, "dataset_agrifood_exports.rds")
+saveRDS(dataset_exports, "data/dataset_agrifood_exports.rds")
