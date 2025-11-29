@@ -3,6 +3,8 @@
 
 ## 
 
-La UE es una potencia en términos de exportación de productos agrarios, pero no es la primera potencia, como hemos visto anteriormente, el PIB que dedica al sector agraria alcanza un 1,3% [@wiki_eu], superado con creces por China, que dedica el 5,6% [@wiki_china_eco] de su PIB a este sector. Sin embargo, el porcentaje que dedica a este sector supera a otra potencia mundial en términos de exportación, EE.UU., que le dedica un 1,2% [@wiki_eeuu_eco] de su PIB total a este sector. 
+La UE es una potencia en términos de exportación de productos agrarios, pero no es la primera potencia, como hemos visto anteriormente, el PIB que dedica al sector agraria alcanza un 1,3% [@wiki_eu], superado con creces por China, que dedica el 5,6% [@wiki_china_eco] de su PIB a este sector. Sin embargo, el porcentaje que dedica a este sector supera a otra potencia mundial en términos de exportación, EE.UU., que le dedica un 1,2% [@wiki_eeuu_eco] de su PIB total. 
 
 A pesar de que las tres potencias centran sus cultivos en los cereales (arroz en China [@wiki_china_agr], y trigo en EE.UU. y la UE [@wiki_eeuu_agr]), sus métodos son diferentes.  Mientras que en China predomina agricultura [intensiva y de regadío]{color=#00FF00}, en EE.UU. encontramos una agricultura [extensiva y mecanizada]{color=#00FF00}. Como se ha comentado antes en EU encontramos una dualidad donde en Europa central predomina el modelo extensivo, y en la parte mediterránea predomina el modelo intensivo.
+
+En cuanto a exportaciones e importaciones, durante 2021-2023, UE fue la mayor potencia en términos de exportaciones, alcanzando el 17% del total de exportaciones en el mundo agrícola, seguido por EE.UU., que alcanza un 13% del total. Sin embargo, aunque China dedique mayor porcentaje de su PIB en este sector, no alcanza a ser de los mayores exportadores, no obstante, es el mayor importador, importando un 15% del total, seguido de EE.UU. con un 14% y la UE con un 12% [@OECD].
