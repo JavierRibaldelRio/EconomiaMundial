@@ -1,0 +1,13 @@
+# Anexo I: cógido fuente de las gráficas {.unnumbered}
+
+## Análisis Interno {.unnumbered .unlisted}
+
+@fig-mpg (a)
+```{r}
+#| file: ../R/barras_valor_anyadido.R   # <-- sin read_chunk
+#| eval: true
+#| echo: true
+#| fig-width: 8
+#| fig-height: 8
+#| out-width: "100%"
+```

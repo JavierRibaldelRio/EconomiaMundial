@@ -23,6 +23,7 @@ book:
     - pages/summary.qmd
     - pages/prompts.qmd
     - pages/references.qmd
+    - pages/code.qmd
 
 
 
