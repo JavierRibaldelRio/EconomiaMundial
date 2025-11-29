@@ -16,16 +16,12 @@ book:
   date: "2025"
   chapters:
     - index.qmd
-    - intro.qmd
     - pages/introduccion.qmd
     - pages/analisis_interno.qmd
     - pages/analisis_externo.qmd
     - pages/summary.qmd
-    - pages/prompts.qmd
     - pages/references.qmd
     - pages/code.qmd
-
-
 
 execute:
   echo: false         # Por defecto, NO mostrar código
@@ -59,6 +55,8 @@ format:
     number-sections: true
     code-overflow: wrap
     papersize: a4
+    include-in-header: 
+     - header.tex
     lof: true         # Índice de figuras (PDF)
     colorlinks: false
     template-partials:        # << reemplazamos la sección que crea la portada

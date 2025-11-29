@@ -1,2 +1,78 @@
-\usepackage[hidelinks]{hyperref}
-\usepackage{float}
+% ============================================================
+%  HEADER & FOOTER CONFIGURATION FOR QUARTO PDF BOOK
+% ============================================================
+
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+
+% =============================
+% ESPACIADOS (AJUSTADOS)
+% =============================
+\setlength{\headheight}{30pt}     % altura del header
+\setlength{\headsep}{32pt}        % separación entre cabecera y contenido (AUMENTADA)
+\setlength{\footskip}{20pt}       % distancia texto → pie
+
+% =============================
+% CONFIGURACIÓN GENERAL
+% =============================
+\pagestyle{fancy}
+\fancyhf{}
+
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+% ============================================================
+%                      HEADER (normal)
+% ============================================================
+\fancyhead[L]{%
+  \includegraphics[height=1.2cm]{img/UPV.png}
+}
+
+\fancyhead[C]{%
+  {\footnotesize \textbf{Economía Mundial \\%
+  ADE + INF}}
+}
+
+\fancyhead[R]{%
+  \includegraphics[height=1.2cm]{img/fade.jpg}
+}
+
+\renewcommand{\headrulewidth}{0.4pt}
+
+% ============================================================
+%                      FOOTER (normal)
+% ============================================================
+\fancyfoot[L]{Xumio Cheng, Pau Minguet, Javier Ribal}
+\fancyfoot[C]{}
+\fancyfoot[R]{\thepage}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% ============================================================
+%              PÁGINAS TIPO "PLAIN" (capítulos, portada)
+% ============================================================
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+
+  % HEADER plain
+  \fancyhead[L]{%
+    \includegraphics[height=1.2cm]{img/UPV.png}
+  }
+
+  \fancyhead[C]{%
+    {\footnotesize \textbf{Economía Mundial \\%
+    ADE + INF}}
+  }
+
+  \fancyhead[R]{%
+    \includegraphics[height=1.2cm]{img/fade.jpg}
+  }
+
+  \renewcommand{\headrulewidth}{0.4pt}
+
+  % FOOTER plain
+  \fancyfoot[L]{Xumio Cheng, Pau Minguet, Javier Ribal}
+  \fancyfoot[C]{}
+  \fancyfoot[R]{\thepage}
+  \renewcommand{\footrulewidth}{0.4pt}
+}
+
+\AtBeginDocument{\pagestyle{fancy}}

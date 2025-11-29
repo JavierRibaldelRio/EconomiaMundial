@@ -37,8 +37,8 @@ Con la intención de determinar el grado de importancia de la agricultura en cad
 #| file: ../R/porcentaje_pib.R   # <-- sin read_chunk
 #| eval: true
 #| echo: false
-#| fig-width: 7
-#| fig-height: 5
+#| fig-width: 5
+#| fig-height: 4
 #| out-width: "100%"
 ```
 
@@ -78,11 +78,11 @@ En el caso específico de España, se observa como a pesar de que su peso es men
 #| fig-width: 10
 #| fig-height: 15
 #| out-width: "100%"
-#| out-height: "100%"
+#| out-height: "90%"
 
 ```
 
-Adicionalmente, la @fig-peu  nos ilustra [ la dualidad del modelo agrario de Europa donde coexisten dos grandes modelos productivos.]{color="#00ff00"} (5). Por un lado, el modelo extensivo basado en los cereales, los cultivos industriales y los forrajes donde destacan Francia, Alemania, Polonia y Hungria por sus grandes superficies y su clima. Por otro lado, el modelo intensivo basado en cultivos de regadío como las hortalizas, cítricos y  frutas producidas mayoritariamente en el clima mediterraneo (España, Italia y Grecia).
+Adicionalmente, la @fig-peu nos ilustra [la dualidad del modelo agrario de europa donde coexisten dos grandes modelos productivos.]{color="#00ff00"} (5). Por un lado, el modelo extensivo basado en los cereales, los cultivos industriales y los forrajes donde destacan Francia, Alemania, Polonia y Hungria por sus grandes superficies y su clima. Por otro lado, el modelo intensivo basado en cultivos de regadío como las hortalizas, cítricos y  frutas producidas mayoritariamente en el clima mediterraneo (España, Italia y Grecia).
 
 
 
