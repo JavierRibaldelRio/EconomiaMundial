@@ -38,7 +38,7 @@ Con la intención de determinar el grado de importancia de la agricultura en cad
 #| eval: true
 #| echo: false
 #| fig-width: 5
-#| fig-height: 4
+#| fig-height: 3
 #| out-width: "100%"
 ```
 
