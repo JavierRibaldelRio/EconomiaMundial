@@ -22,3 +22,53 @@ Sus costes de semillas, fertilizantes y gasoil suman 400 euros.
 El **valor añadido** generado por su explotación es **600 euros**.
 
 Ese valor añadido sirve para cubrir salarios, amortizaciones, impuestos y beneficio del agricultor.
+
+
+(3)
+
+ChatGPT5.1 dada esta tabla que agrupo los dos últimos grupos de producción  bajo un nombre o una característica común 
+
+Viendo la **clasificación de Eurostat** y los grupos que aparecen en tu gráfico, los dos últimos:
+
+* **Cultivos de raíz**
+* **Cereales para la producción de grano**
+
+pertenecen ambos de forma totalmente estándar al gran grupo de:
+
+### **Cultivos herbáceos (o cultivos herbáceos no permanentes)**
+
+Categoría técnica utilizada por **Eurostat (APRO_CPSH1)**, FAOSTAT y la mayoría de estadísticas agrarias.
+
+---
+
+## ¿Por qué es una agrupación coherente?
+
+Ambos:
+
+* Son **cultivos anuales**
+* Son **no permanentes**
+* Se clasifican dentro de los **herbaceous crops** en los manuales estadísticos
+* Forman parte del grupo de **"productos agrícolas no permanentes"** (non-permanent crops)
+
+---
+
+## Alternativas válidas según el enfoque
+
+### ✔ **Agronómico / estadístico (recomendado)**
+
+* **Cultivos herbáceos**
+* **Cultivos no permanentes**
+
+### ✔ **Económico / de sistemas productivos**
+
+* **Cultivos extensivos**
+
+---
+
+## Recomendación final para tu gráfico
+
+Para mantener coherencia con Eurostat y con el resto de categorías del plot:
+
+### **➤ Agrúpalos bajo “Cultivos herbáceos (no permanentes)”**
+
+Si quieres, puedo ayudarte a ajustar la leyenda, a reordenar grupos o a generar esa nueva categoría directamente en tu dataframe de R.

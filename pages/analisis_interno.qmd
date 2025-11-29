@@ -43,7 +43,25 @@ Con la intención de determinar el grado de importancia de la agricultura en cad
 
 ## Variedades
 
-En relación a las variedades \[veáse @fig-peu\] se ar
+En relación a las variedades \[veáse @fig-peu-uni\] se observa como los [cultivos herbáceos]{color="#0000ff"} (3) (cutivos de raíz y cereales) son los más producidos, esto se debe principalmente a que Europa es una zona altamente productiva para los cereales dado su  relieve geográfico y sus temperaturas cálidas. Además, el cereal se consume más que otros, lo que también explica su mayor presencia en la producción. [@kray].
+
+
+```{r}
+#| label: fig-peu-uni
+#| fig-cap: "Producción por producto de la UE-27 (humedad normalizada)"
+#| file: ../R/barras_productos_eu.R
+#| eval: true
+#| echo: false
+#| fig-width: 10
+#| fig-height: 5
+#| out-width: "100%"
+
+```
+
+Al analizar la producción por país \[véase @fig-peu\], se aprecia que gran parte de la producción proviene mayoritariamente de centro Europa (Alemania y Polonia) o del suroeste (Francia, España e Italia). Respecto al resto de países de Europas, normalmente destacan en un determinado producto, por ejemplo Hungria en los cultivos industriales
+
+
+En el caso específico de España, se observa como a pesar de que su peso es menor en las categorías principales, destaca en categorías específicas como: los citricos, las olivas o la frasa.
 
 ```{r}
 #| label: fig-peu
