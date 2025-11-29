@@ -28,8 +28,7 @@ Al analizar el mapa \[véase @fig-mapa-barra-prod\], como es esperable se observ
 Distribución espacial y ranking de la producción agrícola vegetal en la UE-27 (2023).
 :::
 
-Con la intención de determinar el grado de importancia de la agricultura en cada país se ha calculado el porcentaje del PIB que supone la agricultura en cada país \[véase @fig-pib\]. [Al analizar la figura
- se observa cómo los países con mayor valor añadido absoluto no son los que presentan un mayor peso relativo de la agricultura en el PIB. En este caso destacan economías menos desarrolladas de Europa del Este, como Rumanía y Bulgaria, así como Grecia, donde la agricultura alcanza una participación notablemente superior en la actividad económica]{color="#0000ff"} (2).
+Con la intención de determinar el grado de importancia de la agricultura en cada país se ha calculado el porcentaje del PIB que supone la agricultura en cada país \[véase @fig-pib\]. [Al analizar la @fig-pib se observa cómo los países con mayor valor añadido absoluto no son los que presentan un mayor peso relativo de la agricultura en el PIB. En este caso destacan economías menos desarrolladas de Europa del Este, como Rumanía y Bulgaria, así como Grecia, donde la agricultura alcanza una participación notablemente superior en la actividad económica]{color="#0000ff"} (2).
 
 ```{r}
 #| label: fig-pib
