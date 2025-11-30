@@ -17,7 +17,7 @@ En relación a las importaciones de semillas oleaginosas^[semillas de las cuales
 
 ```{r}
 #| label: fig-butterfly-sector
-#| fig-cap: "Grado de dependencia económica del sector primario en la UE (2023)."
+#| fig-cap: "Comparativa de flujos de exportación e importación para productos agrícolas seleccionados en la UE."
 #| file: ../R/butterfly_sector.R   # <-- sin read_chunk
 #| eval: true
 #| echo: false
@@ -35,7 +35,7 @@ Al igual que en las exportaciones netas de la UE, al realizar la división por l
 
 ```{r}
 #| label: fig-butterfly-countries
-#| fig-cap: "Grado de dependencia económica del sector primario en la UE (2023)."
+#| fig-cap: "Comparativa de volúmenes de exportación e importación agrícola por Estado miembro y tipo de producto en la UE."
 #| file: ../R/butterfly_sector_countries.R   # <-- sin read_chunk
 #| eval: true
 #| echo: false

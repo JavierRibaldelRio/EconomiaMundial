@@ -145,20 +145,24 @@ datos_comercio |>
     "Importaciones" = "#E41A1C",
     "Exportaciones" = "#003399"
   )) +
-  theme_minimal() + # Tema limpio
   labs(
     title = "Volumen de Comercio Exterior Agrícola de la UE (2022-2024)",
     subtitle = "Comparativa de la media de Exportaciones (Derecha) vs media de Importaciones (Izquierda)",
     x = NULL, 
     y = "Quilogramos (kg)",
     fill = "Tipo de Flujo",
-    caption = "Fuente: API Agri-food Data Portal (Taxud)"
+    caption = "Elaboración propia con R. Fuente: API Agri-food Data Portal (Taxud)"
   ) +
+  theme_bw() + 
   theme(
-    legend.position = "bottom",         
-    plot.title = element_text(face = "bold", size = 16),
-    axis.text.y = element_text(size = 7, face = "bold"),
-    axis.text.x = element_text(size = 7),
+    legend.position = "bottom", 
+    legend.title = element_blank(),        
+    panel.spacing.y = unit(1.5, "lines"),
+    axis.line = element_line(color = "black", linewidth = 0.5),
+    axis.ticks = element_line(color = "black"),
+    panel.border = element_rect(color = "black", fill = NA, linewidth = 0.5),
+    axis.text.x = element_text(face = "bold", size = 8),
+    axis.text.y = element_text(size = 6),
     panel.grid.major.y = element_blank()
   ) +
   geom_hline(yintercept = 0, color = "black", size = 0.8)
