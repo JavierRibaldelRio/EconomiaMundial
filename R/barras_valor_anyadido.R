@@ -19,18 +19,6 @@ df <- get_eurostat("aact_eaa01", time_format = "num", unit = "T") |>
   mutate(
     pais = geo,
     value = values,
-    # names = fct_recode(pais,
-    #   "Francia" = "FR",
-    #   "Italia" = "IT",
-    #   "España" = "ES",
-    #   "Alemania" = "DE",
-    #   "Países Bajos" = "NL",
-    #   "Polonia" = "PL",
-    #   "Rumanía" = "RO",
-    #   "Portugal" = "PT",
-    #   "Hungría" = "HU",
-    #   "Bélgica" = "BE"
-    # ),
     .keep = "none"
   )
 
