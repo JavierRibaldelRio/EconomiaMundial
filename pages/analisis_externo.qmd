@@ -4,12 +4,19 @@
 
 Para analizar los datos de la Balanza Comercial Agrícola, nos hemos remitido a los datos del portal de datos Agrifood Europa, donde hemos extraido los datos aduaneros agrícolas 
 
-Los sectores de producción de este portal no coinciden exactamente con los del Eurostat, hemos seleccionado aquellos que más se corresponden. 
+Los sectores de producción de este portal no coinciden exactamente con los del Eurostat, por lo que hemos seleccionado aquellos que más se corresponden. 
 
 
-Al analizar las exportaciones frenta a las importaciones por sector [véase @fig-xn]
+### Exportaciones e Importaciones globales
 
-```{r}
+Al analizar las exportaciones frenta a las importaciones por sector \[véase @fig-xn\], la EU destaca por exportar vinos, aceite de oliva y sobre todo cereales. En el caso del aceite de oliva, este resultado se explica porque es un producto que requiere un elevado nivel de especialización. Por este motivo, [la UE es el principal productor, exportador y consumidor mundial, algo que responde tanto a factores climáticos como a motivos históricos]{color=#00FF00} (7). **CITAR ESTO https://agriculture.ec.europa.eu/farming/crop-productions-and-plant-based-products/olive-oil_es**
+
+
+En relación a las importaciones  semillas oleaginosas^[semillas de las cuales se extrae aceite ya sea para consumo  humano o uso industrial: maiz, colza, girasaol, soja...] y en menor medida el azúcar. En los últimos 3 años la UE ha importado alrededor de [PAU, completa amb el valor de la mitjana del dataframe de "semillas oleaginosas"]{color=#FF0000}, esto se debe a su escasa producción interna en la UE, donde destaca Hungría \[véase @fig-peu-uni y @fig-peu\]. 
+
+
+
+<!-- ```{r}
 #| label: fig-xn
 #| fig-cap: "Grado de dependencia económica del sector primario en la UE (2023)."
 #| file: ../R/butterfly_xn_sector.R   # <-- sin read_chunk
@@ -18,12 +25,38 @@ Al analizar las exportaciones frenta a las importaciones por sector [véase @fig
 #| fig-width: 5
 #| fig-height: 3
 #| out-width: "100%"
-```
+``` -->
 
-## 
 
-La UE es una potencia en términos de exportación de productos agrarios, pero no es la primera potencia, como hemos visto anteriormente, el PIB que dedica al sector agraria alcanza un 1,3% [@wiki_eu], superado con creces por China, que dedica el 5,6% [@wiki_china_eco] de su PIB a este sector. Sin embargo, el porcentaje que dedica a este sector supera a otra potencia mundial en términos de exportación, EE.UU., que le dedica un 1,2% [@wiki_eeuu_eco] de su PIB total. 
+### Exportaciones e Importaciones por país
 
-A pesar de que las tres potencias centran sus cultivos en los cereales (arroz en China [@wiki_china_agr], y trigo en EE.UU. y la UE [@wiki_eeuu_agr]), sus métodos son diferentes.  Mientras que en China predomina agricultura [intensiva y de regadío]{color=#00FF00}, en EE.UU. encontramos una agricultura [extensiva y mecanizada]{color=#00FF00}. Como se ha comentado antes en EU encontramos una dualidad donde en Europa central predomina el modelo extensivo, y en la parte mediterránea predomina el modelo intensivo.
+A continuación se muestra la distribución por países \[véase @fig-xn-par], de la que se observa que cada uno presenta una relación propia con los distintos productos. Mientras que algunos países en determinados sectores exportan mucho, otros importan de forma notoria, como es el caso de España y Francia.  Francia exporta cerca de **XXX** ,a la vez que España importa alrededor de **XXX** de fuera de la UE.
 
-En cuanto a exportaciones e importaciones, durante 2021-2023, UE fue la mayor potencia en términos de exportaciones, alcanzando el 17% del total de exportaciones en el mundo agrícola, seguido por EE.UU., que alcanza un 13% del total. Sin embargo, aunque China dedique mayor porcentaje de su PIB en este sector, no alcanza a ser de los mayores exportadores, no obstante, es el mayor importador, importando un 15% del total, seguido de EE.UU. con un 14% y la UE con un 12% [@OECD].
+Al igual que en las exportaciones netas de la UE, al realizar la división por los países miembros el sector exterior complementa aquello que el país no es capaz de producir [véase @fig-peu] y absorve el exceso de su demanda. Se observa como los países que más uvas producen (España, Francia e Itália) son aquellos que más vino exportan, un caso similar al del aceite de oliva. El caso contrario se observa en Países Bajos y los cítricos: aunque no producen, son los que más importan de toda la UE.
+
+
+
+<!-- ```{r}
+#| label: fig-xn-par
+#| fig-cap: "Grado de dependencia económica del sector primario en la UE (2023)."
+#| file: ../R/butterfly_xn_sector.R   # <-- sin read_chunk
+#| eval: true
+#| echo: false
+#| fig-width: 5
+#| fig-height: 3
+#| out-width: "100%"
+``` -->
+
+### Análisis de la Balanza Comercial Agrícola 
+
+
+### Flujos de Exportación e Importación
+
+
+## La UE en el contexto agrícola internacional (comparación con China y EE.UU.)
+
+A pesar de que la UE es una potencia en términos de exportación de productos agricolas, no se trata de la primera potencia en términos de producción. Como hemos visto anteriormente, la agricultura en la UE supone un 1,3% de su PIB [@wiki_eu], superado con creces por China donde el sector agrícola supone el 5,6% [@wiki_china_eco] de su PIB. Por último, la producción de EE.UU. también supera a la producción de la EU, aunque su peso se menor en su PIB total. [@wiki_eeuu_eco]  
+
+En relación a la producción, las tres potencias mundiales centran sus cultivos en los cereales (arroz en China [@wiki_china_agr], y trigo en EE.UU. y en la UE [@wiki_eeuu_agr]), sus métodos productivos son diferentes.  Por un lado en China predomina agricultura [intensiva y de regadío]{color=#00FF00}. Por otro lado en EE.UU. encontramos una agricultura [extensiva y mecanizada]{color=#00FF00}. Como se ha comentado antes en EU encontramos una dualidad donde en Europa central predomina el modelo extensivo, y en la parte mediterránea predomina el modelo intensivo [@wiki_eu]
+
+En cuanto a exportaciones e importaciones, durante el periodo 2021-2023, la UE fue la mayor potencia en términos de exportaciones, alcanzando el 17% del total de exportaciones del mundo agrícola, seguido por EE.UU., cuyas exportaciones supnen un 13% del total. Por su parte, China aunque no se encuentre entre el grupo de los mayores exportadores destaca por ser el mayor importador. China importa un 15% del total, seguido de EE.UU. con un 14% y la UE con un 12% [@OECD].
