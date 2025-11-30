@@ -9,7 +9,7 @@ Los sectores de producción de este portal no coinciden exactamente con los del 
 
 ### Exportaciones e Importaciones globales
 
-Al analizar las exportaciones frenta a las importaciones por sector \[véase @fig-xn\], la UE  destaca por exportar vinos, aceite de oliva y sobre todo cereales. En el caso del aceite de oliva, este resultado se explica porque es un producto que requiere un elevado nivel de especialización. Por este motivo, [la UE es el principal productor, exportador y consumidor mundial, algo que responde tanto a factores climáticos como a motivos históricos]{color=#00FF00} (7). **CITAR ESTO https://agriculture.ec.europa.eu/farming/crop-productions-and-plant-based-products/olive-oil_es**
+Al analizar las exportaciones frenta a las importaciones por sector \[véase @fig-butterfly-sector\], la EU destaca por exportar vinos, aceite de oliva y sobre todo cereales. En el caso del aceite de oliva, este resultado se explica porque es un producto que requiere un elevado nivel de especialización. Por este motivo, [la UE es el principal productor, exportador y consumidor mundial, algo que responde tanto a factores climáticos como a motivos históricos]{color=#00FF00} (7). **CITAR ESTO https://agriculture.ec.europa.eu/farming/crop-productions-and-plant-based-products/olive-oil_es**
 
 
 En relación a las importaciones de semillas oleaginosas^[semillas de las cuales se extrae aceite ya sea para consumo humano o uso industrial: maiz, colza, girasaol, soja...] y en menor medida el azúcar. En los últimos 3 años la UE ha importado alrededor de [PAU, completa amb el valor de la mitjana del dataframe de "semillas oleaginosas"]{color=#FF0000}, esto se debe a su escasa producción interna en la UE, donde destaca Hungría \[véase @fig-peu-uni y @fig-peu\]. 
@@ -21,10 +21,17 @@ En relación a las importaciones de semillas oleaginosas^[semillas de las cuales
 #| file: ../R/butterfly_sector.R   # <-- sin read_chunk
 #| eval: true
 #| echo: false
-#| fig-width: 5
-#| fig-height: 3
+#| fig-width: 10
+#| fig-height: 4
+#| fig-align: "center"
 #| out-width: "100%"
 ```
+
+### Exportaciones e Importaciones por país
+
+A continuación, se muestra la distribución por países \[véase @fig-butterfly-countries], de la que se observa que cada uno presenta una relación propia con los distintos productos. Mientras que algunos países en determinados sectores exportan mucho, otros importan de forma notoria, como es el caso de España y Francia.  Francia exporta cerca de **XXX** ,a la vez que España importa alrededor de **XXX** de fuera de la UE.
+
+Al igual que en las exportaciones netas de la UE, al realizar la división por los países miembros, el sector exterior complementa aquello que el país no es capaz de producir [véase @fig-peu] y absorve el exceso de su demanda. Se observa como los países que más uvas producen (España, Francia e Italia) son aquellos que más vino exportan, un caso similar al del aceite de oliva. El caso contrario se observa con los cítricos en los Países Bajos: aunque no producen, son los que más importan de toda la UE.
 
 ```{r}
 #| label: fig-butterfly-countries
@@ -32,30 +39,13 @@ En relación a las importaciones de semillas oleaginosas^[semillas de las cuales
 #| file: ../R/butterfly_sector_countries.R   # <-- sin read_chunk
 #| eval: true
 #| echo: false
-#| fig-width: 5
-#| fig-height: 3
+#| fig-width: 8
+#| fig-height: 10
+#| out-height: "90%"
 #| out-width: "100%"
 ```
 
-
-### Exportaciones e Importaciones por país
-
-A continuación, se muestra la distribución por países \[véase @fig-xn-par], de la que se observa que cada uno presenta una relación propia con los distintos productos. Mientras que algunos países en determinados sectores exportan mucho, otros importan de forma notoria, como es el caso de España y Francia.  Francia exporta cerca de **XXX** ,a la vez que España importa alrededor de **XXX** de fuera de la UE.
-
-Al igual que en las exportaciones netas de la UE, al realizar la división por los países miembros, el sector exterior complementa aquello que el país no es capaz de producir [véase @fig-peu] y absorve el exceso de su demanda. Se observa como los países que más uvas producen (España, Francia e Italia) son aquellos que más vino exportan, un caso similar al del aceite de oliva. El caso contrario se observa con los cítricos en los Países Bajos: aunque no producen, son los que más importan de toda la UE.
-
-
-
-<!-- ```{r}
-#| label: fig-xn-par
-#| fig-cap: "Grado de dependencia económica del sector primario en la UE (2023)."
-#| file: ../R/butterfly_xn_sector.R   # <-- sin read_chunk
-#| eval: true
-#| echo: false
-#| fig-width: 5
-#| fig-height: 3
-#| out-width: "100%"
-``` -->
+\pagebreak
 
 ### Análisis de la Balanza Comercial Agrícola 
 
