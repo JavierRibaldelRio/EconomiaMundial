@@ -1,5 +1,17 @@
 # Análisis externo
 
+## Balanza Comercial Agrícola
+
+```{r}
+#| label: fig-xn
+#| fig-cap: "Grado de dependencia económica del sector primario en la UE (2023)."
+#| file: ../R/butterfly_xn_sector.R   # <-- sin read_chunk
+#| eval: true
+#| echo: false
+#| fig-width: 5
+#| fig-height: 3
+#| out-width: "100%"
+```
 
 ## 
 
