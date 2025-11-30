@@ -2,6 +2,13 @@
 
 ## Balanza Comercial Agrícola
 
+Para analizar los datos de la Balanza Comercial Agrícola, nos hemos remitido a los datos del portal de datos Agrifood Europa, donde hemos extraido los datos aduaneros agrícolas 
+
+Los sectores de producción de este portal no coinciden exactamente con los del Eurostat, hemos seleccionado aquellos que más se corresponden. 
+
+
+Al analizar las exportaciones frenta a las importaciones por sector [véase @fig-xn]
+
 ```{r}
 #| label: fig-xn
 #| fig-cap: "Grado de dependencia económica del sector primario en la UE (2023)."
