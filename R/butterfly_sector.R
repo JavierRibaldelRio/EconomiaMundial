@@ -1,7 +1,8 @@
 library(tidyverse)
 library(scales)
+library(here)
 
-imports <- readRDS("./data/dataset_agrifood_imports.rds") |> 
+imports <- readRDS(here("R", "./data/dataset_agrifood_imports.rds")) |> 
   mutate(
     sector = fct_recode(sector,
                         "Cereales" = "Cereals",
@@ -31,7 +32,7 @@ imports <- readRDS("./data/dataset_agrifood_imports.rds") |>
     .groups = "drop"
   )
 
-exports <- readRDS("./data/dataset_agrifood_exports.rds") |> 
+exports <- readRDS(here("R", "./data/dataset_agrifood_exports.rds")) |> 
   mutate(
     sector = fct_recode(sector,
                         "Cereales" = "Cereals",
@@ -92,7 +93,6 @@ net_exports |>
   # Reorder ordena los productos según el valor de exportación para dar orden visual
   ggplot(aes(x = reorder(sector, abs(valor)), y = valor, fill = flujo)) +
   geom_col(width = 0.7, alpha = 0.9) +
-  geom_blank(data = limites_simetricos, aes(x = NULL, y = valor, fill = NULL)) +
   coord_flip() +
   scale_y_continuous(
     labels = function(x) {

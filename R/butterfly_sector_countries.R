@@ -1,8 +1,9 @@
 library(tidyverse)
 library(scales)
+library(here)
 
-raw_imports <- readRDS("data/dataset_agrifood_imports.rds")
-raw_exports <- readRDS("data/dataset_agrifood_exports.rds")
+raw_imports <- readRDS(here("R", "./data/dataset_agrifood_imports.rds"))
+raw_exports <- readRDS(here("R", "./data/dataset_agrifood_exports.rds"))
 
 # Tidy data ---------------------------------------------------------------
 

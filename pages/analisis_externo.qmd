@@ -15,17 +15,27 @@ Al analizar las exportaciones frenta a las importaciones por sector \[véase @fi
 En relación a las importaciones de semillas oleaginosas^[semillas de las cuales se extrae aceite ya sea para consumo humano o uso industrial: maiz, colza, girasaol, soja...] y en menor medida el azúcar. En los últimos 3 años la UE ha importado alrededor de [PAU, completa amb el valor de la mitjana del dataframe de "semillas oleaginosas"]{color=#FF0000}, esto se debe a su escasa producción interna en la UE, donde destaca Hungría \[véase @fig-peu-uni y @fig-peu\]. 
 
 
-
-<!-- ```{r}
-#| label: fig-xn
+```{r}
+#| label: fig-butterfly-sector
 #| fig-cap: "Grado de dependencia económica del sector primario en la UE (2023)."
-#| file: ../R/butterfly_xn_sector.R   # <-- sin read_chunk
+#| file: ../R/butterfly_sector.R   # <-- sin read_chunk
 #| eval: true
 #| echo: false
 #| fig-width: 5
 #| fig-height: 3
 #| out-width: "100%"
-``` -->
+```
+
+```{r}
+#| label: fig-butterfly-countries
+#| fig-cap: "Grado de dependencia económica del sector primario en la UE (2023)."
+#| file: ../R/butterfly_sector_countries.R   # <-- sin read_chunk
+#| eval: true
+#| echo: false
+#| fig-width: 5
+#| fig-height: 3
+#| out-width: "100%"
+```
 
 
 ### Exportaciones e Importaciones por país
