@@ -52,7 +52,7 @@ Al igual que en las exportaciones netas de la UE, al realizar la división por l
 ### Balanza Comercial Agrícola: Análisis Económico
 
 
-Al analizar la balanza comercial agrícola, [véase @fig-bcc] observamos que la UE, está en déficit exterior; es decir, la EU depende del sector exterior para abstecersea. No OBSTANTE exportaciones e importaciones son muy próximas, lo que refleja el grado de integración de la EU en el comercio internacional.
+Al analizar la balanza comercial agrícola, [véase @fig-bcc] observamos que la UE, está en déficit exterior; es decir, la E depende del sector exterior para abstecersea. No OBSTANTE exportaciones e importaciones son muy próximas, lo que refleja el grado de integración de la EU en el comercio internacional.
 
 
 
