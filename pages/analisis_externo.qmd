@@ -15,6 +15,8 @@ Al analizar las exportaciones frenta a las importaciones por sector \[véase @fi
 En relación a las importaciones de semillas oleaginosas^[semillas de las cuales se extrae aceite ya sea para consumo humano o uso industrial: maíz, colza, girasol, soja...] y en menor medida el azúcar. En los últimos 3 años la UE ha importado alrededor de 52 millones de toneladas de semillas oleoginosas, esto se debe a su escasa producción interna en la UE, donde destaca Hungría \[véase @fig-peu-uni y @fig-peu\]. 
 
 
+En relación a las importaciones de semillas oleaginosas^[semillas de las cuales se extrae aceite ya sea para consumo humano o uso industrial: maiz, colza, girasaol, soja...] y en menor medida el azúcar. En los últimos 3 años la UE ha importado alrededor de 52 millones de toneladas de semillas oleoginosas, esto se debe a su escasa producción interna en la UE, donde destaca Hungría \[véase @fig-peu-uni y @fig-peu\]. 
+
 ```{r}
 #| label: fig-butterfly-sector
 #| fig-cap: "Comparativa de flujos de exportación e importación para productos agrícolas seleccionados en la UE."
@@ -27,6 +29,7 @@ En relación a las importaciones de semillas oleaginosas^[semillas de las cuales
 #| out-width: "100%"
 ```
 
+\newpage
 ### Exportaciones e Importaciones por país
 
 A continuación, se muestra la distribución por países \[véase @fig-butterfly-countries], de la que se observa que cada uno presenta una relación propia con los distintos productos. Mientras que algunos países en determinados sectores exportan mucho, otros importan de forma notoria, como es el caso de España y Francia.  Francia exporta cerca de 13 millones de toneladas de cereales, a la vez que España importa alrededor de 12 millones de toneladas de fuera de la UE.
@@ -39,14 +42,14 @@ Al igual que en las exportaciones netas de la UE, al realizar la división por l
 #| file: ../R/butterfly_sector_countries.R   # <-- sin read_chunk
 #| eval: true
 #| echo: false
+#| fig-pos: H
 #| fig-width: 8
 #| fig-height: 10
 #| out-height: "90%"
 #| out-width: "100%"
 ```
 
-\pagebreak
-
+\newpage
 
 
 ## La UE en el contexto agrícola internacional
