@@ -22,7 +22,7 @@ result <- tibble(
 
 # Calcular saldo
 saldo <- result$total_euro_value[result$tipo == "Exportaciones"] -
-         result$total_euro_value[result$tipo == "Importaciones"]
+  result$total_euro_value[result$tipo == "Importaciones"]
 
 # Tibble adicional con el saldo
 saldo_tbl <- tibble(
@@ -52,7 +52,7 @@ result_total |>
     size = 4
   ) +
   geom_vline(xintercept = saldo, linetype = "dashed", linewidth = 1) +
-
+  
   # *** TEXTO EN LA FILA "Saldo balanza" ***
   annotate(
     "label",
@@ -69,6 +69,14 @@ result_total |>
     x = "",
     y = "",
     fill = "Tipo",
-    title = "Balanza Comercial"
+    title = "Balanza Comercial",
+    caption = "Elaboración propia con R. Fuente: API Agri-food Data Portal (Taxud)"
   ) +
-  theme_bw()
+  theme_bw() + 
+  theme(
+    panel.spacing.y = unit(1.5, "lines"),
+    axis.line = element_line(color = "black", linewidth = 0.5),
+    axis.ticks = element_line(color = "black"),
+    panel.border = element_rect(color = "black", fill = NA, linewidth = 0.5),
+    axis.text.x = element_text(face = "bold", size = 8)
+  )
