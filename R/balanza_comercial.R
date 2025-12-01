@@ -30,6 +30,10 @@ saldo_tbl <- tibble(
   total_euro_value = saldo
 )
 
+dif <- result$total_euro_value[1] - result$total_euro_value[2]
+
+print(dif)
+
 # Unir todo
 result_total <- bind_rows(result, saldo_tbl)
 
@@ -52,13 +56,13 @@ result_total |>
     size = 4
   ) +
   geom_vline(xintercept = saldo, linetype = "dashed", linewidth = 1) +
-  
+
   # *** TEXTO EN LA FILA "Saldo balanza" ***
   annotate(
     "label",
     x = 24000000000,
     y = "Saldo balanza",
-    label = "Déficit de la balanza comercial:\n−6.374.145.239 € ",
+    label = "Déficit de la balanza comercial:\n 1.548.206.241",
     size = 5,
     fontface = "bold",
     label.size = 0,
@@ -72,7 +76,7 @@ result_total |>
     title = "Balanza Comercial",
     caption = "Elaboración propia con R. Fuente: API Agri-food Data Portal (Taxud)"
   ) +
-  theme_bw() + 
+  theme_bw() +
   theme(
     panel.spacing.y = unit(1.5, "lines"),
     axis.line = element_line(color = "black", linewidth = 0.5),
