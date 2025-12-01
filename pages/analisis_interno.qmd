@@ -36,8 +36,9 @@ Con la intención de determinar el grado de importancia de la agricultura en cad
 #| file: ../R/porcentaje_pib.R   # <-- sin read_chunk
 #| eval: true
 #| echo: false
-#| fig-width: 5
-#| fig-height: 3
+#| fig-width: 8
+#| fig-height: 4
+#| fig-align: "center"
 #| out-width: "100%"
 ```
 

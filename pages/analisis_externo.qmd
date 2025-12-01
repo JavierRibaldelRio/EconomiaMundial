@@ -31,7 +31,7 @@ En relación a las importaciones de semillas oleaginosas^[semillas de las cuales
 
 A continuación, se muestra la distribución por países \[véase @fig-butterfly-countries], de la que se observa que cada uno presenta una relación propia con los distintos productos. Mientras que algunos países en determinados sectores exportan mucho, otros importan de forma notoria, como es el caso de España y Francia.  Francia exporta cerca de 13 millones de toneladas de cereales, a la vez que España importa alrededor de 12 millones de toneladas de fuera de la UE.
 
-Al igual que en las exportaciones netas de la UE, al realizar la división por los países miembros, el sector exterior complementa aquello que el país no es capaz de producir [véase @fig-peu] y absorbe el exceso de su demanda. La @fig-xn-par muestra como los países que más uvas producen (España, Francia e Italia) son los que más vino exportan, un caso similar al del aceite de oliva. El caso contrario se observa con los cítricos en los Países Bajos: aunque no producen, son los que más importan de toda la UE.
+Al igual que en las exportaciones netas de la UE, al realizar la división por los países miembros, el sector exterior complementa aquello que el país no es capaz de producir [véase @fig-peu] y absorbe el exceso de su demanda. La @fig-butterfly-countries muestra como los países que más uvas producen (España, Francia e Italia) son los que más vino exportan, un caso similar al del aceite de oliva. El caso contrario se observa con los cítricos en los Países Bajos: aunque no producen, son los que más importan de toda la UE.
 
 ```{r}
 #| label: fig-butterfly-countries
