@@ -18,15 +18,17 @@ Después, a lo largo del trabajo, ha sido usada para un total de **6 o 7 (revisa
 
 ## Problemas detectados
 
-El principal problema que hemos tenido a la hora de 
+Durante el desarrollo de nuestro trabajo, hemos recurrido varias veces al uso de la IA, con cada uso detectamos diferentes problemas, como la desactualización, en la búsqueda de informes científicos nos mostró varios ejemplos de hace más de 20 años, que en nuestro juicio, no nos es útil debido ya que los datos que recurrimos en nuestro proyecto se actualizan con frecuancia. Por otro lado, la ambigüedad en las respuestas, en la generación de varias respuestas encontramos información irrelevante y que no se adhiere a nuestras ideas, lo que dificulta la obtención de los datos relevantes. En el caso contrario, también encontramos omisiones de información debido a diferentes motivos, ya sea por la generalización de la pregunta o la malinterpretación por parte de la IA.
 
 ## Solución de problemas
 
-Para solucionar la 
+Con el objetivo de bordar las limitaciones identificadas, hemos empleado diferentes metodologías, tanto la búsqueda y contraste de información en diferentes fuentes que confirmara la veracidad de los datos, hasta los ajustes de redacción de los prompts de forma más detallada, mejorando la claridady el contexto.
 
 ## Valoración crítica: ¿en qué ayudó? ¿en qué no?
 
+La IA contribuyó en la redacción de diferentes ideas abstractas que no lograbamos expresar correctamente, proporcionó varias ideas no plantedas que pudimos añadir al proyecto, además de facilitarnos la búsqueda de diferentes fuentes.
 
+Sin embargo, erraba demasiado en la corrección de los códigos utilizados para crear las gráficas, lo que provocó la ralentización del avance del trabajo, de igual forma sucede en la búsqueda de diferentes fuentes y datos.
 
 ## ANEXO: Prompts empleados {.unnumbered}
 
