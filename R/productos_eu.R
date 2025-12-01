@@ -1,5 +1,6 @@
 library(eurostat)
 library(tidyverse)
+library(here)
 
 eu_countries <- c(
   "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR",
@@ -106,3 +107,5 @@ df |>
     panel.border = element_rect(color = "black", fill = NA, linewidth = 0.5),
     axis.text.x = element_text(face = "bold", size = 7)
   )
+
+ggsave(here("R", "img/productos_eu.png"))

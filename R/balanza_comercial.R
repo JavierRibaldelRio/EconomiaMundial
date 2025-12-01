@@ -69,6 +69,16 @@ result_total |>
     x = "",
     y = "",
     fill = "Tipo",
-    title = "Balanza Comercial"
+    title = "Balanza Comercial",
+    caption = "Elaboración propia con R. Fuente: API Agri-food Data Portal (Taxud)"
   ) +
-  theme_bw()
+  theme_bw() + 
+  theme(
+    panel.spacing.y = unit(1.5, "lines"),
+    axis.line = element_line(color = "black", linewidth = 0.5),
+    axis.ticks = element_line(color = "black"),
+    panel.border = element_rect(color = "black", fill = NA, linewidth = 0.5),
+    axis.text.x = element_text(face = "bold", size = 8)
+  )
+
+ggsave(here("R", "img/balanza_comercial.png"))

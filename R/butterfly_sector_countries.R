@@ -166,3 +166,5 @@ datos_comercio |>
     panel.grid.major.y = element_blank()
   ) +
   geom_hline(yintercept = 0, color = "black", size = 0.8)
+
+ggsave(here("R", "img/butterfly_sector_countries.png"))

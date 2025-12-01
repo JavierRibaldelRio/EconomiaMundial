@@ -3,7 +3,7 @@ library(tidyverse)
 library(sf)
 library(giscoR)
 library(stringi)
-
+library(here)
 
 sf::sf_use_s2(FALSE) # evita cargar s2
 
@@ -96,3 +96,4 @@ map_eu |>
     plot.caption = element_text(hjust = 0.3, size = 8)
  )
   
+ggsave(here("R", "img/porcentaje_pib.png"))

@@ -129,3 +129,4 @@ net_exports |>
   ) +
   geom_hline(yintercept = 0, color = "black", size = 0.8)
 
+ggsave(here("R", "img/butterfly_sector.png"))

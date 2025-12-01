@@ -1,6 +1,7 @@
 library(eurostat)
 library(tidyverse)
 library(scales)
+library(here)
 
 eu_countries <- c(
   "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR",
@@ -38,9 +39,11 @@ df |>
     subtitle = "Valores Añadidos a precios básicos corrientes (millones de euros, 2023)",
     caption = "Elaboración propia con R.  Eurostat (aact_eaa01, P11 – Output of crop production)."
   ) +
-  theme_minimal() +
+  theme_bw() +
   theme(
     plot.title = element_text(size = 11),
     plot.subtitle = element_text(size = 9),
     plot.caption = element_text(hjust = 0.3, size = 8)
   )
+
+ggsave(here("R", "img/barras_valor_anyadido.png"))
