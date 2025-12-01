@@ -42,7 +42,7 @@ Con la intención de determinar el grado de importancia de la agricultura en cad
 ```
 
 
-[Tras de valorar el papel que desempeña la agricultura en cada economía, conviene observar con más detalle qué se produce y en qué proporción.]{color="#00ff00"} (4)
+[Tras valorar el papel que desempeña la agricultura en cada economía, conviene observar con más detalle qué se produce y en qué proporción.]{color="#00ff00"} (4)
 
 ## Distribución cultivos en los estados miembros
 
@@ -62,7 +62,7 @@ En relación a los cultivos \[veáse @fig-peu-uni\] se observa como los [cultivo
 
 ```
 
-Al analizar la producción por país \[véase @fig-peu\], se aprecia que gran parte de la producción proviene mayoritariamente de centro Europa (Alemania y Polonia) o del suroeste (Francia, España e Italia). Respecto al resto de países de Europas, normalmente destacan en un determinado producto, por ejemplo Hungría en los cultivos industriales (girasol, maíz, tabaco...) [@wiki_economia_hu].
+Al analizar la producción por país \[véase @fig-peu\], se aprecia que gran parte de la producción proviene mayoritariamente de centro Europa (Alemania y Polonia) o del suroeste (Francia, España e Italia). Respecto al resto de países de Europa, normalmente destacan en un determinado producto, por ejemplo Hungría en los cultivos industriales (girasol, maíz, tabaco...) [@wiki_economia_hu].
 
 
 En el caso específico de España, se observa como a pesar de que su peso es menor en las categorías principales (cereales y forrajes de tierras arables), es líder de la UE en categorías específicas como: los cítricos, las hortalizas, las olivas o la fresa.
@@ -91,7 +91,7 @@ Adicionalmente, la @fig-peu nos ilustra [la dualidad del modelo agrario de europ
 
 ## Política Agrícola Común
 
-La Política Agrícola Común, en adelante PAC, es una política creada por la UE con el fin de favorecer la relación entre la sociedad y la agricultura, esta gira en torno a la consecución de 10 objetivos. Los cuales se resumen en:
+La Política Agrícola Común, en adelante lo denominaremos PAC, es una política creada por la UE con el fin de favorecer la relación entre la sociedad y la agricultura, esta gira en torno a la consecución de 10 objetivos. Los cuales se resumen en:
 
 - el apoyo a los agricultores garantizando un nivel de vida razonable;
 - la protección del medio ambiente y gestión sostenible de los recursos; 
