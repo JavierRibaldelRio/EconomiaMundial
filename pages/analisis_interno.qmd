@@ -106,7 +106,6 @@ Para el cumplimiento de estos objetivos, los países de la UE han adoptado difer
 
 En relación al reparto de subvenciones y ayudas, según Eurostat *"Muchos productores de la UE dependen en gran medida de las ayudas públicas \[...\]. El porcentaje medio en la UE de pagos directos en la renta de los factores agrícolas durante el período de 2018-2022 se situó en el 23 %. \[...\] Teniendo en cuenta todas las subvenciones, el porcentaje de la ayuda total de la UE a la renta agrícola alcanzó una media del 33 % en la Unión."* [@eurostat_PAC_gastos]. En la @fig-graficaPAC se aprecia como los países más dependientes son Estonia, Eslovaquia, Letonia, Lituania y Suecia, donde más del 50% de los ingresos de la agricultura se corresponden a ayudas. Esta dependencia se debe principalmente [a la predominancia de cultivos extensivos con menores rendimientos naturales debido a la latitud, así como a unos costes de producción más elevados derivados de las limitaciones del suelo y el clima]{color=#00FF00}. (2)
 
-# PONER FUENTE ↓↓↓↓ 
 
 ![Proporción de los pagos directos y los subsidios totales en los ingresos de los factores agrícolas](../img/GraphPAC.png){#fig-graficaPAC fig-pos="H"}
 
