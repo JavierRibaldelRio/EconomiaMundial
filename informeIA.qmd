@@ -18,7 +18,7 @@ Después, a lo largo del trabajo, ha sido usada para un total de **6 o 7 (revisa
 
 ## Problemas detectados
 
-Durante el desarrollo de nuestro trabajo, hemos recurrido varias veces al uso de la IA, con cada uso detectamos diferentes problemas, como la desactualización, en la búsqueda de informes científicos nos mostró varios ejemplos de hace más de 20 años, que en nuestro juicio, no nos es útil debido ya que los datos que recurrimos en nuestro proyecto se actualizan con frecuancia. Por otro lado, la ambigüedad en las respuestas, en la generación de varias respuestas encontramos información irrelevante y que no se adhiere a nuestras ideas, lo que dificulta la obtención de los datos relevantes. En el caso contrario, también encontramos omisiones de información debido a diferentes motivos, ya sea por la generalización de la pregunta o la malinterpretación por parte de la IA.
+Durante el desarrollo de nuestro trabajo, hemos recurrido varias veces al uso de la IA, con cada uso detectamos diferentes problemas, como la desactualización, en la búsqueda de informes científicos nos mostró varios ejemplos de hace más de 20 años, que en nuestro juicio, no nos es útil debido ya que los datos que recurrimos en nuestro proyecto se actualizan con frecuencia. Por otro lado, la ambigüedad en las respuestas, en la generación de varias respuestas encontramos información irrelevante y que no se adhiere a nuestras ideas, lo que dificulta la obtención de los datos relevantes. En el caso contrario, también encontramos omisiones de información debido a diferentes motivos, ya sea por la generalización de la pregunta o la malinterpretación por parte de la IA.
 
 ## Solución de problemas
 
