@@ -50,16 +50,16 @@ Al igual que en las exportaciones netas de la UE, al realizar la división por l
 ### Balanza Comercial Agrícola: Análisis Económico
 
 
-Al analizar la balanza comercial agrícola, [véase @fig-bcc] observamos que la UE, está en déficit exterior; es decir, la E depende del sector exterior para abastecerse. No obstante, exportaciones e importaciones son muy próximas, lo que refleja el grado de integración de la EU en el comercio internacional.
+Al analizar la balanza comercial agrícola, \[véase @fig-bcc\] observamos que la UE, está en déficit exterior; es decir, la E depende del sector exterior para abastecerse. No obstante, exportaciones e importaciones son muy próximas, lo que refleja el grado de integración de la EU en el comercio internacional.
 
 ```{r}
 #| label: fig-bcc
-#| fig-cap: ""
+#| fig-cap: "Composición de la balanza comercial: importaciones, exportaciones y saldo resultante."
 #| file: "../R/balanza_comercial.R"   # <-- sin read_chunk
 #| eval: true
 #| echo: false
 #| fig-width: 8
-#| fig-height: 8
+#| fig-height: 4
 ```
 
 ## La UE en el contexto agrícola internacional

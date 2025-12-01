@@ -1,2 +1,2 @@
-- 2.1 definición valor añadido
 - fuente gráfica PAC
+- Citar a R y Quarto
