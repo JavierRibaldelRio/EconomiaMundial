@@ -1,4 +1,2 @@
-- figura 2.1 a millones...
 - 2.1 definición valor añadido
-- 2.2 reescalar gráfica
 - fuente gráfica PAC
