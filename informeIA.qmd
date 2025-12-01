@@ -1,0 +1,128 @@
+---
+title: "Informe de uso de IA"
+subtitle: "La agricultura en la Unión Europea"
+author: "Xumiao Cheng, Pau Minguet Micó, Javier Ribal del Río (Grupo 8)"
+format: pdf
+number-sections: true
+---
+
+## Herramientas empleadas
+
+Para la realización del trabajo de la asignatura principalmente se han utilizado dos *LLM* (Large Language Model), el último modelo de ChatGTP de *Open AI* (ChatGPT 5.1) y Gemini de *Google* (Gemini Pro 3). Además, para revisar todo el código del proyecto hemos usado la IA integrada de VSCode, Copilot de *Microsoft* basada en ChatGPT.
+
+## Fases del trabajo donde se usó la IA
+
+En primer lugar, una vez decidida la temática y planteada la estructura del proyecto, usamos la Inteligencia Artificial (IA) para disponer de un punto de vista alternativo del planteamiento de este.
+
+Después, a lo largo del trabajo, ha sido usada para un total de **6 o 7 (revisar)** consultas, las cuales nos han ayudado a comprender y expresar mejor nuestras ideas. Además, también la hemos usado para apoyarnos a la hora de pulir las gráficas, estableciendo un tema acorde con la seriedad del trabajo. 
+
+## Problemas detectados
+
+El principal problema que hemos tenido a la hora de 
+
+## Solución de problemas
+
+Para solucionar la 
+
+## Valoración crítica: ¿en qué ayudó? ¿en qué no?
+
+
+
+## ANEXO: Prompts empleados {.unnumbered}
+
+Los prompts enumerados a continuación, coinciden con las referencias hechas en el trabajo.
+
+
+### Prompt nº6 {.unnumbered}
+
+#### Pregunta {.unnumbered}
+
+*A pesar de exportar poco vino y oliva, ¿somos los únicos que exportamos y no importamos nada? ¿A que se debe eso?*
+
+#### Respuesta {.unnumbered}
+
+Hay una explicación **económica y estructural muy clara** para el hecho de que la UE:
+
+* **exporte relativamente poco vino y aceite de oliva en volumen**,
+  pero aun así
+* **sea prácticamente la única gran región del mundo que exporta y no necesita importar nada** de estos dos productos.
+
+Esto se debe a **cuatro razones principales**:
+
+1. La UE es el *núcleo histórico* de la vitivinicultura y del olivar mundial
+
+Europa concentra desde hace milenios:
+
+* **La mayoría de la superficie mundial de olivar** (España, Italia, Grecia, Portugal).
+* **Las regiones vitivinícolas más antiguas y más densas** (Francia, España, Italia, Portugal, Alemania).
+
+Esto significa que:
+
+* La UE **produce muchísimo**, pero
+* **consume también muchísimo**, porque estas bebidas y aceites están profundamente integrados en la dieta europea.
+
+Por eso el **excedente exportable** no es enorme en volumen, aunque la producción lo sea.
+
+2. El consumo interno es muy alto, por eso el volumen exportado “parece” bajo
+
+En ambos productos, la UE:
+
+* **Consume la mayor parte de lo que produce**,
+* Y solo exporta una fracción.
+
+Pero esa fracción, aunque parezca pequeña, es **la mayor del mundo** porque casi nadie más produce cantidades significativas.
+
+3. El vino y el aceite son productos de alta especialización *terroir*
+
+A diferencia de cereales o azúcar, que se producen en muchos países, **el vino y el aceite de oliva requieren condiciones muy específicas**:
+
+**Para el vino:**
+
+* Clima mediterráneo o templado con amplitud térmica
+* Terruño específico (suelo, altitud, orientación)
+* Tradición vitivinícola
+* Variedades adaptadas
+
+**Para el olivo:**
+
+* Clima mediterráneo con inviernos suaves y veranos calurosos
+* Tolerancia limitada al frío
+* Árboles de larga implantación y baja productividad inicial
+
+**Muy pocos países en el mundo pueden cumplir esas condiciones a gran escala.**
+
+Por eso:
+
+* **Casi no hay competencia global**.
+* La UE domina el mercado.
+
+4. La industria europea tiene marcas y denominaciones de origen consolidadas
+
+En vino y oliva, **la ventaja comparativa no es solo agronómica, sino cultural y simbólica**:
+
+* Denominaciones de origen (Rioja, Chianti, Champagne, La Mancha, Douro).
+* Reputación internacional construida durante siglos.
+* Variedades autóctonas, procesos de calidad y tecnologías de elaboración muy desarrolladas.
+
+Esto crea una **ventaja de mercado enorme**, difícilmente replicable por países nuevos.
+
+Por eso la UE puede **exportar con precio alto** y **no necesita importar aceite o vino de terceros países**.
+
+5. La UE produce tanto que, aunque exporte “poco”, sigue siendo autosuficiente
+
+El gráfico muestra **kg exportados**, no **valor económico**.
+Pero en vino y aceite:
+
+* El **valor por kg es altísimo**.
+* Una pequeña cantidad física representa millones en ingresos.
+
+Así que:
+
+* Exportamos mucho **en valor**,
+* Pero **poco en peso**, porque son productos densos en precio y no voluminosos.
+
+**Conclusión clara para tu informe:**
+
+Aunque la UE exporta un volumen moderado de vino y aceite de oliva en comparación con otros sectores, es prácticamente la única gran región netamente exportadora del mundo en estos productos. Esto se explica por su posición histórica como núcleo de la vitivinicultura y el olivar, por un consumo interno elevado, por las exigentes condiciones agroclimáticas que limitan la producción fuera del Mediterráneo y por la existencia de cadenas agroindustriales y denominaciones de origen altamente especializadas y competitivas a nivel internacional.
+
+
