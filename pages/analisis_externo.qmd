@@ -29,7 +29,7 @@ En relación a las importaciones, destacan las de semillas oleaginosas^[semillas
 
 ### Exportaciones e Importaciones por país
 
-A continuación, descendiendo a nivel país \[véase @fig-butterfly-countries], donde se muestra las exportaciones e importaciones por producto. Mientras que algunos países en determinados productos se exportan mucho, otros se importan de forma notable, como es el caso de España y Francia.  Francia exporta cerca de **XXX** ,a la vez que España importa alrededor de **XXX** de fuera de la UE.
+A continuación, descendiendo a nivel país \[véase @fig-butterfly-countries], donde se muestra las exportaciones e importaciones por producto. Mientras que algunos países en determinados productos se exportan mucho, otros se importan de forma notable, como es el caso de España y Francia. Francia exporta cerca de **XXX** ,a la vez que España importa alrededor de **XXX** de fuera de la UE.
 
 Al igual que en las exportaciones netas de la UE, al realizar la división por los países miembros, el sector exterior complementa aquello que el país no es capaz de producir [véase @fig-peu] y absorbe el exceso de su demanda. La @fig-xn-par muestra como los países que más uvas producen (España, Francia e Italia) son los que más vino exportan, un caso similar al del aceite de oliva. El caso contrario se observa con los cítricos en los Países Bajos: aunque no producen, son los que más importan de toda la UE.
 
