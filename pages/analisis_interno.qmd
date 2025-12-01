@@ -2,6 +2,7 @@
 
 ## Importancia  económica de la agricultura
 
+{DEFINICIÓN FORMAL DE LA UE}
 Para analizar la importancia de la agricultura en cada país europeo, recurrimos al valor añadido que se produce en el sector primario, [la riqueza que generan las actividades que extraen recursos directamente de la naturaleza]{color="#0000ff"} (1). 
 
 Al analizar el mapa \[véase @fig-mapa-barra-prod\], como es esperable se observa como los países que disponen más superficie presentan un mayor valor añadido, siendo Francia, España e Italia los países que más producen. Por otro lado, se aprecia el efecto de los climas más adversos, puesto que  en Suecia y Finlandia, su clima boreal dificulta la producción vegetal [@ign_clima_eu]. 
@@ -42,16 +43,16 @@ Con la intención de determinar el grado de importancia de la agricultura en cad
 ```
 
 
-[Tras de valorar el papel que desempaña la agricultura en cada economía, conviene observar con más detalle qué se produce y en qué proporción]{color="#00ff00"} (4)
+[Tras de valorar el papel que desempeña la agricultura en cada economía, conviene observar con más detalle qué se produce y en qué proporción.]{color="#00ff00"} (4)
 
 ## Distribución cultivos en los estados miembros
 
-En relación a las variedades \[veáse @fig-peu-uni\] se observa como los [cultivos herbáceos]{color="#0000ff"} (3) (cutivos de raíz y cereales) son los más producidos, esto se debe principalmente a que Europa es una zona altamente productiva para los cereales dado su relieve geográfico, clima templado, estaciones marcadas y suficiente pluviometría. Además, el cereal se consume más que otros, lo que también explica su mayor presencia en la producción. [@kray].
+En relación a los cultivos \[veáse @fig-peu-uni\] se observa como los [cultivos herbáceos]{color="#0000ff"} (3) (cultivos de raíz y cereales) son los más producidos, esto se debe principalmente a que Europa es una zona altamente productiva para los cereales dado su relieve geográfico, clima templado, estaciones marcadas y suficiente pluviometría. Además, el cereal se consume más que otros, lo que también explica su mayor presencia en la producción. [@kray].
 
 
 ```{r}
 #| label: fig-peu-uni
-#| fig-cap: "Producción por producto de la UE-27 (humedad normalizada)"
+#| fig-cap: "Producción agrícola de la UE-27 (humedad normalizada)"
 #| fig-pos: "H"
 #| file: ../R/barras_productos_eu.R
 #| eval: true
@@ -62,10 +63,10 @@ En relación a las variedades \[veáse @fig-peu-uni\] se observa como los [culti
 
 ```
 
-Al analizar la producción por país \[véase @fig-peu\], se aprecia que gran parte de la producción proviene mayoritariamente de centro Europa (Alemania y Polonia) o del suroeste (Francia, España e Italia). Respecto al resto de países de Europas, normalmente destacan en un determinado producto, por ejemplo Hungria en los cultivos industriales (girasol, maíz, tabaco...) [@wiki_economia_hu].
+Al analizar la producción por país \[véase @fig-peu\], se aprecia que gran parte de la producción proviene mayoritariamente de centro Europa (Alemania y Polonia) o del suroeste (Francia, España e Italia). Respecto al resto de países de Europas, normalmente destacan en un determinado producto, por ejemplo Hungría en los cultivos industriales (girasol, maíz, tabaco...) [@wiki_economia_hu].
 
 
-En el caso específico de España, se observa como a pesar de que su peso es menor en las categorías principales (cereales y forrajes de tierras arables), es líder de la UE en categorías específicas como: los citricos, las hortalizas, las olivas o la fresa.
+En el caso específico de España, se observa como a pesar de que su peso es menor en las categorías principales (cereales y forrajes de tierras arables), es líder de la UE en categorías específicas como: los cítricos, las hortalizas, las olivas o la fresa.
 
 ```{r}
 #| label: fig-peu
@@ -81,17 +82,17 @@ En el caso específico de España, se observa como a pesar de que su peso es men
 
 ```
 
-Adicionalmente, la @fig-peu nos ilustra [la dualidad del modelo agrario de europa donde coexisten dos grandes modelos productivos.]{color="#00ff00"} (5). Por un lado, el modelo extensivo basado en los cereales, los cultivos industriales y los forrajes donde destacan Francia, Alemania, Polonia y Hungria por sus grandes superficies y su clima. Por otro lado, el modelo intensivo basado en cultivos de regadío como las hortalizas, cítricos y  frutas producidas mayoritariamente en el clima mediterraneo (España, Italia y Grecia).
+Adicionalmente, la @fig-peu nos ilustra [la dualidad del modelo agrario de europa donde coexisten dos grandes modelos productivos.]{color="#00ff00"} (5). Por un lado, el modelo extensivo basado en los cereales, los cultivos industriales y los forrajes donde destacan Francia, Alemania, Polonia y Hungría por sus grandes superficies y su clima. Por otro lado, el modelo intensivo basado en cultivos de regadío como las hortalizas, cítricos y  frutas producidas mayoritariamente en el clima mediterráneo (España, Italia y Grecia).
 
 
 
-[Comprendidas las principales variedades cultivadas y su peso territorial, el siguiente paso es analizar la Política Agrícola Común el marco legal que condiciona gran parte de la actividad agrícola en la UE.]{color="#00ff00"} (4)
+[Comprendidos los principales cultivos y su peso territorial, el siguiente paso es analizar la Política Agrícola Común, el marco legal que condiciona gran parte de la actividad agrícola en la UE.]{color="#00ff00"} (4)
 
 \pagebreak
 
-## PAC (Política Agrícola Común)
+## Política Agrícola Común
 
-La PAC (Política Agrícola Común) es una política creada por la UE con el fin de favorecer la relación entre la sociedad y la agricultura, esta gira en torno a la consecución de 10 objetivos. Los cuales se resumen en:
+La Política Agrícola Común, en adelante PAC, es una política creada por la UE con el fin de favorecer la relación entre la sociedad y la agricultura, esta gira en torno a la consecución de 10 objetivos. Los cuales se resumen en:
 
 - el apoyo a los agricultores garantizando un nivel de vida razonable;
 - la protección del medio ambiente y gestión sostenible de los recursos; 
@@ -103,12 +104,13 @@ Para el cumplimiento de estos objetivos, los países de la UE han adoptado difer
 
 
 
-En relación al reparto de subvenciones y ayudas, según Eurostat *"Muchos productores de la UE dependen en gran medida de las ayudas públicas \[...\]. El porcentaje medio en la UE de pagos directos en la renta de los factores agrícolas durante el período de 2018-2022 se situó en el 23 %. \[...\] Teniendo en cuenta todas las subvenciones, el porcentaje de la ayuda total de la UE a la renta agrícola alcanzó una media del 33 % en la Unión."* [@eurostat_PAC_gastos] En la @fig-graficaPAC se aprecia como los países más dependientes son Estonia, Eslovaquia, Letonia, Lituania y Suecia, donde más del 50% de los ingresos de la agricultura se corresponden a ayudas. Esta dependencia se debe principalmente [a la predominancia de cultivos extensivos con menores rendimientos naturales debido a la latitud, así como a unos costes de producción más elevados derivados de las limitaciones del suelo y el clima]{color=#00FF00} (2).
+En relación al reparto de subvenciones y ayudas, según Eurostat *"Muchos productores de la UE dependen en gran medida de las ayudas públicas \[...\]. El porcentaje medio en la UE de pagos directos en la renta de los factores agrícolas durante el período de 2018-2022 se situó en el 23 %. \[...\] Teniendo en cuenta todas las subvenciones, el porcentaje de la ayuda total de la UE a la renta agrícola alcanzó una media del 33 % en la Unión."* [@eurostat_PAC_gastos]. En la @fig-graficaPAC se aprecia como los países más dependientes son Estonia, Eslovaquia, Letonia, Lituania y Suecia, donde más del 50% de los ingresos de la agricultura se corresponden a ayudas. Esta dependencia se debe principalmente [a la predominancia de cultivos extensivos con menores rendimientos naturales debido a la latitud, así como a unos costes de producción más elevados derivados de las limitaciones del suelo y el clima]{color=#00FF00}. (2)
 
+# PONER FUENTE ↓↓↓↓ 
 
 ![Proporción de los pagos directos y los subsidios totales en los ingresos de los factores agrícolas](../img/GraphPAC.png){#fig-graficaPAC fig-pos="H"}
 
-En España, estas ayudas suponen el 20% de los ingresos agrarios, impactando en la vida de más de 700 mil productores españoles de forma directa, e indirectamente en el ecosistema y en la sociedad española. Con la implementación del nuevo plan estratégico para 2023-2027 las ayudas tienen como objetivo contribuir en la sostenibilidad fomentando la digitalización del sector agrícola. Para ello se han creado incentivos financieros para los agricultores que adopten prácticas agrícolas sostenibles. El objetivo final de estos incentivos es la búsqueda del equilibrio entre la agricultura y el medio ambiente, además del incremento de los fondos destinados a promever las nuevas tecnologías en el ámbito rural. [@Cajamar_nueva_PAC]
+En España, estas ayudas suponen el 20% de los ingresos agrarios, impactando en la vida de más de 700 mil productores españoles de forma directa, e indirectamente en el ecosistema y en la sociedad española. Con la implementación del nuevo plan estratégico para 2023-2027 las ayudas tienen como objetivo contribuir a la sostenibilidad fomentando la digitalización del sector agrícola. Para ello se han creado incentivos financieros para los agricultores que adopten prácticas agrícolas sostenibles. El objetivo final de estos incentivos es la búsqueda del equilibrio entre la agricultura y el medio ambiente, además del incremento de los fondos destinados a promever las nuevas tecnologías en el ámbito rural. [@Cajamar_nueva_PAC]
 
 
-[Tras analizar el funcionamiento de la PAC y su impacto en los productores europeos, resulta imprescindible ampliar la perspectiva y examinar cómo se inserta la agricultura de la UE  en los mercados internacionales]{color="#00ff00"} (4)
+[Tras analizar el funcionamiento de la PAC y su impacto en los productores europeos, resulta imprescindible ampliar la perspectiva y examinar cómo se inserta la agricultura de la UE  en los mercados internacionales]{color="#00ff00"}. (4)

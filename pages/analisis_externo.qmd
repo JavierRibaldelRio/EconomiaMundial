@@ -2,17 +2,17 @@
 
 ## Balanza Comercial Agrícola
 
-Para analizar los datos de la Balanza Comercial Agrícola, nos hemos remitido a los datos del portal de datos Agrifood Europa, donde hemos extraido los datos aduaneros agrícolas 
+Para analizar los datos de la Balanza Comercial Agrícola, hemos empleado el portal de datos *Agrifood Europa*, de donde hemos extraído los datos aduaneros agrícolas. 
 
-Los sectores de producción de este portal no coinciden exactamente con los del Eurostat, por lo que hemos seleccionado aquellos que más se corresponden. 
+Es importante destacar que las agrupaciones de cultivos de este portal no coinciden exactamente con las de *Eurostat*, por lo que hemos seleccionado aquellas con mayor correspondencia. 
 
 
 ### Exportaciones e Importaciones globales
 
-Al analizar las exportaciones frenta a las importaciones por sector \[véase @fig-butterfly-sector\], la EU destaca por exportar vinos, aceite de oliva y sobre todo cereales. En el caso del aceite de oliva, este resultado se explica porque es un producto que requiere un elevado nivel de especialización. Por este motivo, [la UE es el principal productor, exportador y consumidor mundial, algo que responde tanto a factores climáticos como a motivos históricos]{color=#00FF00} (7). **CITAR ESTO https://agriculture.ec.europa.eu/farming/crop-productions-and-plant-based-products/olive-oil_es**
+El análisis de exportaciones frenta a las importaciones \[véase @fig-butterfly-sector\] muestra, como  la UE destaca por exportar vinos, aceite de oliva y sobre todo cereales. En el caso del  aceite de oliva la UE es el principal productor, exportador y consumidor mundial, [algo que responde tanto a factores climáticos como a motivos históricos además es un producto que requiere un elevado nivel de especialización]{color=#00FF00} (7). **CITAR ESTO https://agriculture.ec.europa.eu/farming/crop-productions-and-plant-based-products/olive-oil_es**
 
 
-En relación a las importaciones de semillas oleaginosas^[semillas de las cuales se extrae aceite ya sea para consumo humano o uso industrial: maiz, colza, girasaol, soja...] y en menor medida el azúcar. En los últimos 3 años la UE ha importado alrededor de [PAU, completa amb el valor de la mitjana del dataframe de "semillas oleaginosas"]{color=#FF0000}, esto se debe a su escasa producción interna en la UE, donde destaca Hungría \[véase @fig-peu-uni y @fig-peu\]. 
+En relación a las importaciones, destacal las de semillas oleaginosas^[semillas de las cuales se extrae aceite ya sea para consumo humano o uso industrial: maíz, colza, girasol, soja...] y en menor medida el azúcar. En los últimos 3 años la UE ha importado alrededor de [PAU, completa amb el valor de la mitjana del dataframe de "semillas oleaginosas"]{color=#FF0000}, esto se debe a su escasa producción interna en la UE, donde solo Hungria produce cultivos industriales de forma notable \[véase @fig-peu-uni y @fig-peu\]. 
 
 
 ```{r}
@@ -29,9 +29,9 @@ En relación a las importaciones de semillas oleaginosas^[semillas de las cuales
 
 ### Exportaciones e Importaciones por país
 
-A continuación, se muestra la distribución por países \[véase @fig-butterfly-countries], de la que se observa que cada uno presenta una relación propia con los distintos productos. Mientras que algunos países en determinados sectores exportan mucho, otros importan de forma notoria, como es el caso de España y Francia.  Francia exporta cerca de **XXX** ,a la vez que España importa alrededor de **XXX** de fuera de la UE.
+A continuación, descendiendo a nivel país \[véase @fig-xn-par], donde se muestra las exportaciones e importaciones por producto. Mientras que algunos países en determinados productos se exportan mucho, otros se importan de forma notable, como es el caso de España y Francia.  Francia exporta cerca de **XXX** ,a la vez que España importa alrededor de **XXX** de fuera de la UE.
 
-Al igual que en las exportaciones netas de la UE, al realizar la división por los países miembros, el sector exterior complementa aquello que el país no es capaz de producir [véase @fig-peu] y absorve el exceso de su demanda. Se observa como los países que más uvas producen (España, Francia e Italia) son aquellos que más vino exportan, un caso similar al del aceite de oliva. El caso contrario se observa con los cítricos en los Países Bajos: aunque no producen, son los que más importan de toda la UE.
+Al igual que en las exportaciones netas de la UE, al realizar la división por los países miembros, el sector exterior complementa aquello que el país no es capaz de producir [véase @fig-peu] y absorbe el exceso de su demanda. La @fig-xn-par muestra como los países que más uvas producen (España, Francia e Italia) son los que más vino exportan, un caso similar al del aceite de oliva. El caso contrario se observa con los cítricos en los Países Bajos: aunque no producen, son los que más importan de toda la UE.
 
 ```{r}
 #| label: fig-butterfly-countries
@@ -55,8 +55,8 @@ Al igual que en las exportaciones netas de la UE, al realizar la división por l
 
 ## La UE en el contexto agrícola internacional (comparación con China y EE.UU.)
 
-A pesar de que la UE es una potencia en términos de exportación de productos agricolas, no se trata de la primera potencia en términos de producción. Como hemos visto anteriormente, la agricultura en la UE supone un 1,3% de su PIB [@wiki_eu], superado con creces por China donde el sector agrícola supone el 5,6% [@wiki_china_eco] de su PIB. Por último, la producción de EE.UU. también supera a la producción de la UE , aunque su peso se menor en su PIB total. [@wiki_eeuu_eco]  
+A pesar de que la UE es una potencia en términos de exportación de productos agrícolas, no se trata de la primera potencia en términos de producción. Como hemos visto anteriormente, la agricultura en la UE supone un 1,3% de su PIB [@wiki_eu], superado con creces por China donde el sector agrícola supone el 5,6% [@wiki_china_eco] de su PIB. Por último, la producción agrícola de EE.UU. también supera a la producción agrícola de la UE, si bien su peso en el PIB es menor. [@wiki_eeuu_eco]  
 
-En relación a la producción, las tres potencias mundiales centran sus cultivos en los cereales (arroz en China [@wiki_china_agr], y trigo en EE.UU. y en la UE [@wiki_eeuu_agr]), sus métodos productivos son diferentes.  Por un lado en China predomina agricultura [intensiva y de regadío]{color=#00FF00}. Por otro lado en EE.UU. encontramos una agricultura [extensiva y mecanizada]{color=#00FF00}. Como se ha comentado antes en UE  encontramos una dualidad donde en Europa central predomina el modelo extensivo, y en la parte mediterránea predomina el modelo intensivo [@wiki_eu]
+En relación a la producción, las tres potencias mundiales centran sus cultivos en los cereales (arroz en China [@wiki_china_agr], y trigo en EE.UU. y en la UE [@wiki_eeuu_agr]), si bien sus métodos productivos son diferentes.  Por un lado, en China predomina la agricultura [intensiva y de regadío]{color=#00FF00}. Por otro lado en EE.UU. encontramos una agricultura [extensiva y mecanizada]{color=#00FF00}. Como se ha comentado anteriormente en la UE encontramos una dualidad donde en Europa central predomina el modelo extensivo, y en la parte mediterránea predomina el modelo intensivo [@wiki_eu]
 
-En cuanto a exportaciones e importaciones, durante el periodo 2021-2023, la UE fue la mayor potencia en términos de exportaciones, alcanzando el 17% del total de exportaciones del mundo agrícola, seguido por EE.UU., cuyas exportaciones suponen un 13% del total. Por su parte, China aunque no se encuentre entre el grupo de los mayores exportadores destaca por ser el mayor importador. China importa un 15% del total, seguido de EE.UU. con un 14% y la UE con un 12% [@OECD].
+En cuanto a exportaciones e importaciones, durante el periodo 2021-2023, la UE fue la mayor potencia en términos de exportaciones, alcanzando el 17% del total de exportaciones agrícola del mundo, seguido por EE.UU., cuyas exportaciones suponen un 13% del total. Por su parte, China destaca por ser el mayor importador, aunque no es un gran exporta. Concretamente, China importa un 15% del total, seguido de EE.UU. con un 14% y la UE con un 12% [@OECD].
