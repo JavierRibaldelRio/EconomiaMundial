@@ -22,13 +22,15 @@ Durante el desarrollo de nuestro trabajo, hemos recurrido varias veces al uso de
 
 ## Solución de problemas
 
-Con el objetivo de bordar las limitaciones identificadas, hemos empleado diferentes metodologías, tanto la búsqueda y contraste de información en diferentes fuentes que confirmara la veracidad de los datos, hasta los ajustes de redacción de los prompts de forma más detallada, mejorando la claridady el contexto.
+Con el objetivo de abordar las limitaciones identificadas, hemos empleado diferentes metodologías, tanto la búsqueda y contraste de información en diferentes fuentes que confirmara la veracidad de los datos, hasta los ajustes de redacción de los prompts de forma más detallada, mejorando la claridady el contexto.
 
 ## Valoración crítica: ¿en qué ayudó? ¿en qué no?
 
 La IA contribuyó en la redacción de diferentes ideas abstractas que no lograbamos expresar correctamente, proporcionó varias ideas no plantedas que pudimos añadir al proyecto, además de facilitarnos la búsqueda de diferentes fuentes.
 
 Sin embargo, erraba demasiado en la corrección de los códigos utilizados para crear las gráficas, lo que provocó la ralentización del avance del trabajo, de igual forma sucede en la búsqueda de diferentes fuentes y datos.
+
+En consecuencia, la IA es una herramienta conveniente y eficaz en el caso de utilizarla correctamente y conocer cómo es su funcionamiento. No solo puede agilizar tareas, sino que también puede mejorar la calidad de la redacción, entre otros usos.
 
 ## ANEXO: Prompts empleados {.unnumbered}
 
