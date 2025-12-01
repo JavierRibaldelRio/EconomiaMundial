@@ -12,7 +12,7 @@ Es importante destacar que las agrupaciones de cultivos de este portal no coinci
 El análisis de exportaciones frenta a las importaciones \[véase @fig-butterfly-sector\] muestra, como  la UE destaca por exportar vinos, aceite de oliva y sobre todo cereales. En el caso del  aceite de oliva la UE es el principal productor, exportador y consumidor mundial, [algo que responde tanto a factores climáticos como a motivos históricos además es un producto que requiere un elevado nivel de especialización]{color=#00FF00} (7). **CITAR ESTO https://agriculture.ec.europa.eu/farming/crop-productions-and-plant-based-products/olive-oil_es**
 
 
-En relación a las importaciones, destacal las de semillas oleaginosas^[semillas de las cuales se extrae aceite ya sea para consumo humano o uso industrial: maíz, colza, girasol, soja...] y en menor medida el azúcar. En los últimos 3 años la UE ha importado alrededor de [PAU, completa amb el valor de la mitjana del dataframe de "semillas oleaginosas"]{color=#FF0000}, esto se debe a su escasa producción interna en la UE, donde solo Hungria produce cultivos industriales de forma notable \[véase @fig-peu-uni y @fig-peu\]. 
+En relación a las importaciones, destacan las de semillas oleaginosas^[semillas de las cuales se extrae aceite ya sea para consumo humano o uso industrial: maíz, colza, girasol, soja...] y en menor medida el azúcar. En los últimos 3 años la UE ha importado alrededor de [PAU, completa amb el valor de la mitjana del dataframe de "semillas oleaginosas"]{color=#FF0000}, esto se debe a su escasa producción interna en la UE, donde solo Hungria produce cultivos industriales de forma notable \[véase @fig-peu-uni y @fig-peu\]. 
 
 
 ```{r}
@@ -29,7 +29,7 @@ En relación a las importaciones, destacal las de semillas oleaginosas^[semillas
 
 ### Exportaciones e Importaciones por país
 
-A continuación, descendiendo a nivel país \[véase @fig-xn-par], donde se muestra las exportaciones e importaciones por producto. Mientras que algunos países en determinados productos se exportan mucho, otros se importan de forma notable, como es el caso de España y Francia.  Francia exporta cerca de **XXX** ,a la vez que España importa alrededor de **XXX** de fuera de la UE.
+A continuación, descendiendo a nivel país \[véase @fig-butterfly-countries], donde se muestra las exportaciones e importaciones por producto. Mientras que algunos países en determinados productos se exportan mucho, otros se importan de forma notable, como es el caso de España y Francia.  Francia exporta cerca de **XXX** ,a la vez que España importa alrededor de **XXX** de fuera de la UE.
 
 Al igual que en las exportaciones netas de la UE, al realizar la división por los países miembros, el sector exterior complementa aquello que el país no es capaz de producir [véase @fig-peu] y absorbe el exceso de su demanda. La @fig-xn-par muestra como los países que más uvas producen (España, Francia e Italia) son los que más vino exportan, un caso similar al del aceite de oliva. El caso contrario se observa con los cítricos en los Países Bajos: aunque no producen, son los que más importan de toda la UE.
 
@@ -47,13 +47,9 @@ Al igual que en las exportaciones netas de la UE, al realizar la división por l
 
 \pagebreak
 
-### Análisis de la Balanza Comercial Agrícola 
 
 
-### Flujos de Exportación e Importación
-
-
-## La UE en el contexto agrícola internacional (comparación con China y EE.UU.)
+## La UE en el contexto agrícola internacional
 
 A pesar de que la UE es una potencia en términos de exportación de productos agrícolas, no se trata de la primera potencia en términos de producción. Como hemos visto anteriormente, la agricultura en la UE supone un 1,3% de su PIB [@wiki_eu], superado con creces por China donde el sector agrícola supone el 5,6% [@wiki_china_eco] de su PIB. Por último, la producción agrícola de EE.UU. también supera a la producción agrícola de la UE, si bien su peso en el PIB es menor. [@wiki_eeuu_eco]  
 
