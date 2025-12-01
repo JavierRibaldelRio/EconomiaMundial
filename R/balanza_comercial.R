@@ -2,6 +2,14 @@ library(dplyr)
 library(ggplot2)
 library(tibble)
 library(scales)
+library(here)
+
+
+imports <- readRDS(here("R", "data/dataset_agrifood_imports.rds")) |>
+  filter(marketingYear == "2021/2022")
+
+exports <- readRDS(here("R", "data/dataset_agrifood_exports.rds")) |>
+  filter(marketingYear == "2021/2022")
 
 # Cálculo base
 result <- tibble(
@@ -12,6 +20,25 @@ result <- tibble(
   )
 )
 
+# Calcular saldo
+saldo <- result$total_euro_value[result$tipo == "Exportaciones"] -
+         result$total_euro_value[result$tipo == "Importaciones"]
+
+# Tibble adicional con el saldo
+saldo_tbl <- tibble(
+  tipo = "Saldo balanza",
+  total_euro_value = saldo
+)
+
+# Unir todo
+result_total <- bind_rows(result, saldo_tbl)
+
+# Colores (exportaciones azul, importaciones rojo, saldo verde/rojo según signo)
+colores <- c(
+  "Importaciones" = "#E41A1C",
+  "Exportaciones" = "#003399",
+  "Saldo balanza" = ifelse(saldo >= 0, "#228B22", "#8B0000")
+)
 # Calcular saldo
 result_total |>
   ggplot(aes(x = total_euro_value, y = tipo, fill = tipo)) +
