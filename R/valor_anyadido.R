@@ -54,7 +54,7 @@ map_eu |>
   dplyr::group_by(id) |>
   dplyr::summarise(geometry = sf::st_union(geometry), .groups = "drop") |>
   # Unión con el DF original
-
+  
   left_join(df, by = c("id" = "pais")) |>
   st_transform(3035) |> # Transformación a formato ggplot
   ggplot() +
@@ -62,14 +62,16 @@ map_eu |>
   scale_fill_gradient(
     low  = "#cfe1ff", # tinte claro
     high = "#003399", # azul UE
-    name = "Millones de Euros" # <-- etiqueta de unidad
+    name = "Millones de Euros", # <-- etiqueta de unidad
+    label = scales::label_number(big.mark = ".", decimal.mark = ",")
+    
   ) +
   labs(
     title    = "Producción agrícola vegetal en la UE-27",
     subtitle = "Valores Añadidos a precios básicos corrientes (millones de euros, 2023)",
     caption  = "Elaboración propia con R.  Eurostat (aact_eaa01, P11 – Output of crop production)."
   ) +
-    theme(
+  theme(
     plot.title = element_text(size=11),
     plot.subtitle = element_text(size=9),
     plot.caption = element_text(hjust = 0.3, size = 8)
