@@ -15,8 +15,6 @@ Al analizar las exportaciones frenta a las importaciones por sector \[véase @fi
 En relación a las importaciones de semillas oleaginosas^[semillas de las cuales se extrae aceite ya sea para consumo humano o uso industrial: maíz, colza, girasol, soja...] y en menor medida el azúcar. En los últimos 3 años la UE ha importado alrededor de 52 millones de toneladas de semillas oleoginosas, esto se debe a su escasa producción interna en la UE, donde destaca Hungría \[véase @fig-peu-uni y @fig-peu\]. 
 
 
-En relación a las importaciones de semillas oleaginosas^[semillas de las cuales se extrae aceite ya sea para consumo humano o uso industrial: maiz, colza, girasaol, soja...] y en menor medida el azúcar. En los últimos 3 años la UE ha importado alrededor de 52 millones de toneladas de semillas oleoginosas, esto se debe a su escasa producción interna en la UE, donde destaca Hungría \[véase @fig-peu-uni y @fig-peu\]. 
-
 ```{r}
 #| label: fig-butterfly-sector
 #| fig-cap: "Comparativa de flujos de exportación e importación para productos agrícolas seleccionados en la UE."
