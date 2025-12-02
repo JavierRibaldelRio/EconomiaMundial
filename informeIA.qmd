@@ -21,7 +21,8 @@ Después, a lo largo del trabajo, ha sido usada para un total de **6 o 7 (revisa
 Durante el desarrollo de nuestro trabajo, hemos recurrido varias veces al uso de la IA, con cada uso detectamos diferentes problemas. En primer lugar, la antigüedad de su fuente, en la búsqueda de informes científicos nos mostró varios ejemplos de hace más de 30 años, que pueden llegar a estar desactualizados.
 
 Además, la ambigüedad de sus respuestas, en la generación de varias respuestas encontramos información irrelevante y que no se adhiere a nuestras ideas, lo que dificulta la obtención de los datos relevantes. En el caso contrario, también encontramos omisiones de información debido a diferentes motivos, ya sea por la generalización de la pregunta o la malinterpretación por parte de la IA.
-<
+
+
 ## Solución de problemas
 
 Con el objetivo de abordar las limitaciones identificadas, hemos empleado diferentes metodologías, tanto la búsqueda y contraste de información en diferentes fuentes que confirmara la veracidad de los datos, hasta los ajustes de redacción de los prompts de forma más detallada, mejorando la claridad y el contexto.
@@ -38,8 +39,7 @@ En consecuencia, la IA es una herramienta conveniente y eficaz en el caso de uti
 
 Los prompts enumerados a continuación, coinciden con las referencias hechas en el trabajo.
 
-### Prompt nº 1 {.unnumbered}
-
+### Prompt nº 1^[El resultado de este prompt no fue utilizado en el trabajo, fue remplazado por una definición formal de Eurostat] {.unnumbered}
 #### Conversaciones y preguntas {.unnumbered}
 
 *¿Qué es el valor añadido explicado de forma simple?*

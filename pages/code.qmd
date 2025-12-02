@@ -1,5 +1,8 @@
 # Anexo I: cógido fuente de las gráficas {.unnumbered}
 
+
+Código fuente de todas las gráfica realizadas con el lenguaje de programación R [@R_man] y siguiendo la filosofía de *Tidyverse* [@td].
+
 ## Análisis Interno {.unnumbered .unlisted}
 
 @fig-mapa-barra-prod (izquierda)

@@ -1,2 +1,0 @@
-- fuente gráfica PAC
-- Citar a R y Quarto
