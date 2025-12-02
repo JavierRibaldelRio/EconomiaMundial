@@ -14,11 +14,11 @@ Para la realización del trabajo de la asignatura principalmente se han utilizad
 
 En primer lugar, una vez decidida la temática y planteada la estructura del proyecto, usamos la Inteligencia Artificial (IA) para disponer de un punto de vista alternativo del planteamiento de este.
 
-Después, a lo largo del trabajo, ha sido usada para un total de **6 o 7 (revisar)** consultas, las cuales nos han ayudado a comprender y expresar mejor nuestras ideas. Además, también la hemos utilizado *Copilot para apoyarnos a la hora de formatear las gráficas con R, estableciendo un tema y una paleta de colores común para todo el proyecto. 
+Después, a lo largo del trabajo, ha sido usada para un total de **6 o 7 (revisar)** consultas, las cuales nos han ayudado a comprender y expresar mejor nuestras ideas. Además, también hemos utilizado *Copilot* para apoyarnos a la hora de formatear las gráficas con R, estableciendo un tema y una paleta de colores común para todo el proyecto. 
 
 ## Problemas detectados
 
-Durante el desarrollo de nuestro trabajo, hemos recurrido varias veces al uso de la IA, con cada uso detectamos diferentes problemas. En primer lugar, la aniguedad de su fuente, en la búsqueda de informes científicos nos mostró varios ejemplos de hace más de 30 años, que en pueden llegar a estar desactualizados.
+Durante el desarrollo de nuestro trabajo, hemos recurrido varias veces al uso de la IA, con cada uso detectamos diferentes problemas. En primer lugar, la antigüedad de su fuente, en la búsqueda de informes científicos nos mostró varios ejemplos de hace más de 30 años, que pueden llegar a estar desactualizados.
 
 Además, la ambigüedad de sus respuestas, en la generación de varias respuestas encontramos información irrelevante y que no se adhiere a nuestras ideas, lo que dificulta la obtención de los datos relevantes. En el caso contrario, también encontramos omisiones de información debido a diferentes motivos, ya sea por la generalización de la pregunta o la malinterpretación por parte de la IA.
 <
