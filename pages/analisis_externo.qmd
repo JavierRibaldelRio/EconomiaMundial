@@ -9,7 +9,7 @@ Es importante destacar que las agrupaciones de cultivos de este portal no coinci
 
 ### Exportaciones e Importaciones globales
 
-Al analizar las exportaciones frenta a las importaciones por sector \[véase @fig-butterfly-sector\], la UE destaca por exportar vinos, aceite de oliva y sobre todo cereales. En el caso del aceite de oliva, este resultado se explica porque es un producto que requiere un elevado nivel de especialización. Por este motivo, [la UE es el principal productor, exportador y consumidor mundial, algo que responde tanto a factores climáticos como a motivos históricos]{color=#00FF00} (7). [@aceite_UE].
+Al analizar las exportaciones frente a las importaciones por sector \[véase @fig-butterfly-sector\], la UE destaca por exportar vinos, aceite de oliva y sobre todo cereales. En el caso del aceite de oliva, este resultado se explica porque es un producto que requiere un elevado nivel de especialización. Por este motivo, [la UE es el principal productor, exportador y consumidor mundial, algo que responde tanto a factores climáticos como a motivos históricos]{color=#00FF00} (7). [@aceite_UE].
 
 
 En relación a las importaciones de semillas oleaginosas^[semillas de las cuales se extrae aceite ya sea para consumo humano o uso industrial: maíz, colza, girasol, soja...] y en menor medida el azúcar. En los últimos 3 años la UE ha importado alrededor de 52 millones de toneladas de semillas oleoginosas, esto se debe a su escasa producción interna en la UE, donde destaca Hungría \[véase @fig-peu-uni y @fig-peu\]. 

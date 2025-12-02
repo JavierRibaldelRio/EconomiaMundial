@@ -62,7 +62,7 @@
     <choose>
       <if variable="author editor translator title title-short" match="any">
         <names variable="author">
-          <name form="long" and="text" sort-separator=", " name-as-sort-order="all" delimiter=", " delimiter-precedes-last="never"/>
+          <name form="short" and="text" sort-separator=", " name-as-sort-order="all" delimiter=", " delimiter-precedes-last="never"/>
           <substitute>
             <names variable="editor"/>
             <names variable="translator"/>
@@ -305,7 +305,7 @@
       </else>
     </choose>
   </macro>
-  <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year" year-suffix-delimiter=", " after-collapse-delimiter=" ; ">
+  <citation et-al-min="2" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year" year-suffix-delimiter=", " after-collapse-delimiter=" ; ">
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", p. ">
         <group delimiter=" ">
