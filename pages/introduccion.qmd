@@ -2,12 +2,12 @@
 
 ## Contextualización histórica
 
-En el pasado los humanos fueron nómadas, erraban por el mundo buscando alimentos para sobrevivir. La invención de la agricultura, una técnica que posibilitó el cultivo de vegetales de forma artificial, les permitió asentarse, causando así la creación de las primeras comunidades las cuales asentaron las bases de la civilización. [@csic] 
+En el pasado, los humanos fueron nómadas, erraban por el mundo buscando alimentos para sobrevivir. La invención de la agricultura, una técnica que posibilitó el cultivo de vegetales de forma artificial, les permitió asentarse, causando así la creación de las primeras comunidades, las cuales asentaron las bases de la civilización. [@csic] 
 
 
 ## Importancia de la agricultura en la Unión Europea
 
-En la actualidad, la economía de la Unión Europea (UE) se caracteriza por la gran importancia del sector terciario o servicios, el cual abarca un 70% del PIB. En cambio, el sector primario solo concentra un 2%, donde la agricultura representa 65% del mismo. En Europa Occidental predomina la agricultura intensiva que se caracteriza por terrenos pequeños pero fértiles, que proporciona un gran rendimiento. Por otra parte, en Europa Central y Oriental predomina la agricultura extensiva, caracterizada por terrenos de mayor superficie de los cuales se obtiene una mayor producción, a costa de un menor rendimiento. [@wiki_eu]
+En la actualidad, la economía de la Unión Europea (UE) se caracteriza por la gran importancia del sector terciario o servicios, el cual abarca un 70% del PIB. En cambio, el sector primario solo concentra un 2%, donde la agricultura representa el 65% del mismo. En Europa Occidental predomina la agricultura intensiva que se caracteriza por terrenos pequeños pero fértiles, que proporciona un gran rendimiento. Por otra parte, en Europa Central y Oriental predomina la agricultura extensiva, caracterizada por terrenos de mayor superficie de los cuales se obtiene una mayor producción, a costa de un menor rendimiento. [@wiki_eu]
 
 Pese al bajo porcentaje del sector agrícola en el PIB, en el año 2022, el 40% de la superficie total de la UE fue destinada a la agricultura, siendo la actividad económica con mayor uso de la superficie en la UE. [@eurostat_agriculture]
 
