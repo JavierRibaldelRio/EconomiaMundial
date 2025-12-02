@@ -62,6 +62,9 @@ format:
     template-partials:        # << reemplazamos la sección que crea la portada
     - before-body.tex
 
+knitr: 
+  opts_chunk: 
+    dev: cairo_pdf
 
 filters:
   - colour.lua
