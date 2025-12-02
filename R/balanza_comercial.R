@@ -32,12 +32,11 @@ saldo_tbl <- tibble(
 
 dif <- result$total_euro_value[1] - result$total_euro_value[2]
 
-print(dif)
-
 # Unir todo
 result_total <- bind_rows(result, saldo_tbl)
 
-# Colores (exportaciones azul, importaciones rojo, saldo verde/rojo según signo)
+# Colores 
+# (exportaciones azul, importaciones rojo, saldo verde/rojo según signo)
 colores <- c(
   "Importaciones" = "#E41A1C",
   "Exportaciones" = "#003399",
@@ -49,7 +48,12 @@ result_total |>
   geom_col() +
   geom_text(
     aes(label = paste0(
-      scales::comma(total_euro_value, big.mark = ".", decimal.mark = ","), " €"
+      scales::comma(
+        total_euro_value, 
+        big.mark = ".", 
+        decimal.mark = ","
+      ),
+      " \u20AC"
     )),
     hjust = 1.05,
     color = "white",
@@ -70,15 +74,21 @@ result_total |>
   ) +
   scale_fill_manual(values = colores) +
   scale_x_continuous(
-    labels = scales::label_number(big.mark = ".", decimal.mark = ",", scale = 0.000001)
+    labels = scales::label_number(
+      big.mark = ".", 
+      decimal.mark = ",", 
+      scale = 0.000001
+    )
   ) +
   labs(
-    x = "Ḿillones de €",
+    x = "Millones de \u20AC",
     y = "",
     fill = "Tipo",
     title = "Balanza Comercial Agrícola",
     subtitle = "Ejercicio fiscal 2021-2022",
-    caption = "Elaboración propia con R. Fuente: API Agri-food Data Portal (Taxud)"
+    caption = paste0("Elaboración propia con R. ",
+    "Fuente: API Agri-food Data Portal (Taxud)"
+    )
   ) +
   theme_bw() +
   theme(
@@ -86,6 +96,10 @@ result_total |>
     panel.spacing.y = unit(1.5, "lines"),
     axis.line = element_line(color = "black", linewidth = 0.5),
     axis.ticks = element_line(color = "black"),
-    panel.border = element_rect(color = "black", fill = NA, linewidth = 0.5),
+    panel.border = element_rect(
+      color = "black", 
+      fill = NA, 
+      linewidth = 0.5
+    ),
     axis.text.x = element_text(face = "bold", size = 8)
   )

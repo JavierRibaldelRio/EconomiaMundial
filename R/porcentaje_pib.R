@@ -9,8 +9,8 @@ sf::sf_use_s2(FALSE) # evita cargar s2
 
 eu_countries <- c(
   "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR",
-  "DE", "EL", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL",
-  "PL", "PT", "RO", "SK", "SI", "ES", "SE"
+  "DE", "EL", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", 
+  "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE"
 )
 
 # 
@@ -20,7 +20,7 @@ df1 <- get_eurostat("aact_eaa01", time_format = "num", unit = "T") |>
     TIME_PERIOD == 2023, # Año 2023
     unit == "MIO_EUR", # Unidades en Millones de €
     indic_ag == "PROD_BP", # VA_pb
-    itm_newa == 10000 # Selección de la serie de cultivos (no confundir con agricultural ya que este incluye la ganadería)
+    itm_newa == 10000 # Selección de la serie de cultivos
   ) |>
   mutate(
     pais = geo,
@@ -72,9 +72,12 @@ map_eu$lat <- coords[, 2]
 map_eu |>
   dplyr::filter(lon > -25, lon < 45, lat > 34, lat < 72) |>
   dplyr::group_by(id) |>
-  dplyr::summarise(geometry = sf::st_union(geometry), .groups = "drop") |>
-  # Unión con el DF original
+  dplyr::summarise(
+    geometry = sf::st_union(geometry), 
+    .groups = "drop"
+  ) |>
   
+  # Unión con el DF original
   left_join(df, by = c("id" = "pais")) |>
   st_transform(3035) |> # Transformación a formato ggplot
   ggplot() +
@@ -88,7 +91,10 @@ map_eu |>
   labs(
     title    = "Participación de la agricultura en el PIB de la UE-27",
     subtitle = "Valor Añadido Bruto respecto al total nacional (2023)",
-    caption  = "Elaboración propia con R.  Eurostat (nama_10_gdp, Gross domestic product (GDP) and main components (output, expenditure and income))."
+    caption  = paste0("Elaboración propia con R. ",
+      "Eurostat (nama_10_gdp, Gross domestic product (GDP) ",
+      "and main components (output, expenditure and income))."
+    )
   ) +
   theme(
     plot.title = element_text(size=11),

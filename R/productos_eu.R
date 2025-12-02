@@ -3,8 +3,8 @@ library(tidyverse)
 
 eu_countries <- c(
   "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR",
-  "DE", "EL", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL",
-  "PL", "PT", "RO", "SK", "SI", "ES", "SE"
+  "DE", "EL", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", 
+  "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE"
 )
 
 
@@ -58,18 +58,18 @@ df <- get_eurostat("apro_cpsh1", time_format = "num", unit = "T") |>
       "Chequia (CZ)" = "CZ"
     ),
     crop = fct_recode(crops,
-                      "Cereales para la producción de grano" = "C0000",
-                      "Legumbres secas" = "P0000",
-                      "Cultivos de raíz" = "R0000",
-                      "Cultivos industriales" = "I0000",
-                      "Hortalizas frescas (incluidos los melones)" = "V0000",
-                      "Frutas, bayas y frutos secos" = "F0000",
-                      "Citricos" = "T0000",
-                      "Uva" = "W1000",
-                      "Fresas" = "S0000",
-                      "Olivas" = "O1000",
-                      "Setas cultivadas" = "U1000",
-                      "Forrajes de tierras arables" = "G0000"
+      "Cereales para la producción de grano" = "C0000",
+      "Legumbres secas" = "P0000",
+      "Cultivos de raíz" = "R0000",
+      "Cultivos industriales" = "I0000",
+      "Hortalizas frescas (incluidos los melones)" = "V0000",
+      "Frutas, bayas y frutos secos" = "F0000",
+      "Citricos" = "T0000",
+      "Uva" = "W1000",
+      "Fresas" = "S0000",
+      "Olivas" = "O1000",
+      "Setas cultivadas" = "U1000",
+      "Forrajes de tierras arables" = "G0000"
     ),
     .keep = "none"
   ) |>
@@ -80,7 +80,11 @@ df <- get_eurostat("apro_cpsh1", time_format = "num", unit = "T") |>
   )
 
 # Para España el color rojo, para los demás gris
-rojo_espana <- ifelse(df$names == "España (ES)", "#E41A1C", "#003399")
+rojo_espana <- ifelse(
+  df$names == "España (ES)", 
+  "#E41A1C", 
+  "#003399"
+)
   
 # Aseguramos que ggplot sepa el color de España
 names(rojo_espana) <- df$names
@@ -94,8 +98,12 @@ df |>
   labs(
     x = NULL,
     y = "Miles de toneladas",
-    title = "Panorama de la Producción Vegetal en la Unión Europea (2022 - 2024)",
-    caption = "Elaboración propia con R. Eurostat (apro_cpsh1, Crop production in EU standard humidity)."
+    title = paste0("Panorama de la Producción Vegetal en la ",
+      "Unión Europea (2022 - 2024)"
+    ),
+    caption = paste0("Elaboración propia con R. ",
+      "Eurostat (apro_cpsh1, Crop production in EU standard humidity)."
+    )
   ) +
   theme_bw() +
   theme(
@@ -103,6 +111,10 @@ df |>
     panel.spacing.y = unit(1.5, "lines"),
     axis.line = element_line(color = "black", linewidth = 0.5),
     axis.ticks = element_line(color = "black"),
-    panel.border = element_rect(color = "black", fill = NA, linewidth = 0.5),
+    panel.border = element_rect(
+      color = "black", 
+      fill = NA, 
+      linewidth = 0.5
+    ),
     axis.text.x = element_text(face = "bold", size = 7)
   )

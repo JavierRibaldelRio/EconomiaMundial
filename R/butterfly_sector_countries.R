@@ -5,7 +5,7 @@ library(here)
 raw_imports <- readRDS(here("R", "./data/dataset_agrifood_imports.rds"))
 raw_exports <- readRDS(here("R", "./data/dataset_agrifood_exports.rds"))
 
-# Tidy data ---------------------------------------------------------------
+# Tidy data -----------------------------------------------------------
 
 imports_by_sector <- raw_imports |> 
   mutate(
@@ -42,13 +42,13 @@ total_imports_by_sector <- imports_by_sector |>
 exports_by_sector <- raw_exports |> 
   mutate(
     sector = fct_recode(sector,
-                        "Cereales" = "Cereals",
-                        "Vino" = "Wine",
-                        "Aceite de oliva" = "Olive Oil",
-                        "Azúcar" = "Sugar",
-                        "Cítricos" = "Citrus Fruit",
-                        "Semillas oleaginosas" = "Oilseeds"
-                        ),                      
+      "Cereales" = "Cereals",
+      "Vino" = "Wine",
+      "Aceite de oliva" = "Olive Oil",
+      "Azúcar" = "Sugar",
+      "Cítricos" = "Citrus Fruit",
+      "Semillas oleaginosas" = "Oilseeds"
+      ),                      
     memberStateCode = memberStateCode,
     memberName = str_c(memberStateName, " (", memberStateCode, ")"),
     partnerCode = partnerCode,
@@ -86,7 +86,7 @@ datos_comercio <- left_join(
   )
 
 
-# Simetry dataset ---------------------------------------------------------
+# Simetry dataset -----------------------------------------------------
 
 limites_simetricos <- datos_comercio |> 
   group_by(sector) |> 
@@ -110,7 +110,7 @@ limites_simetricos <- datos_comercio |>
     flujo = NA       
   )
 
-# Plot --------------------------------------------------------------------
+# Plot ----------------------------------------------------------------
 
 datos_comercio |> 
   
@@ -124,10 +124,16 @@ datos_comercio |>
     flujo == "total_exports" ~ "Exportaciones"
   )) |> 
   
-  # Reorder ordena los productos según el valor de exportación para dar orden visual
-  ggplot(aes(x = reorder(memberStateCode, abs(valor)), y = valor, fill = flujo)) +
+  # Reorder ordena los productos según el valor de exportación
+  ggplot(aes(
+    x = reorder(memberStateCode, abs(valor)), 
+    y = valor, fill = flujo)
+  ) +
   geom_col(width = 0.7, alpha = 0.9) +
-  geom_blank(data = limites_simetricos, aes(x = NULL, y = valor, fill = NULL)) +
+  geom_blank(
+    data = limites_simetricos, 
+    aes(x = NULL, y = valor, fill = NULL)
+    ) +
   facet_wrap(~sector, ncol = 2, scales = "free") +
   coord_flip() +
   scale_y_continuous(
@@ -147,11 +153,16 @@ datos_comercio |>
   )) +
   labs(
     title = "Volumen de Comercio Exterior Agrícola de la UE (2022-2024)",
-    subtitle = "Comparativa de la media de Exportaciones (Derecha) vs media de Importaciones (Izquierda)",
+    subtitle = paste0("Comparativa de la media de ",
+      "Exportaciones (Derecha) vs",
+      " media de Importaciones (Izquierda)"
+    ),
     x = NULL, 
     y = "Quilogramos (kg)",
     fill = "Tipo de Flujo",
-    caption = "Elaboración propia con R. Fuente: API Agri-food Data Portal (Taxud)"
+    caption = paste0("Elaboración propia con R.",
+      " Fuente: API Agri-food Data Portal (Taxud)"
+    )
   ) +
   theme_bw() + 
   theme(
@@ -160,7 +171,10 @@ datos_comercio |>
     panel.spacing.y = unit(1.5, "lines"),
     axis.line = element_line(color = "black", linewidth = 0.5),
     axis.ticks = element_line(color = "black"),
-    panel.border = element_rect(color = "black", fill = NA, linewidth = 0.5),
+    panel.border = element_rect(
+      color = "black", 
+      fill = NA, 
+      linewidth = 0.5),
     axis.text.x = element_text(face = "bold", size = 8),
     axis.text.y = element_text(size = 6),
     panel.grid.major.y = element_blank()

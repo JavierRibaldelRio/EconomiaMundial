@@ -5,12 +5,12 @@ library(here)
 imports <- readRDS(here("R", "./data/dataset_agrifood_imports.rds")) |> 
   mutate(
     sector = fct_recode(sector,
-                        "Cereales" = "Cereals",
-                        "Vino" = "Wine",
-                        "Aceite de oliva" = "Olive Oil",
-                        "Azúcar" = "Sugar",
-                        "Cítricos" = "Citrus Fruit",
-                        "Semillas oleaginosas" = "Oilseeds"
+      "Cereales" = "Cereals",
+      "Vino" = "Wine",
+      "Aceite de oliva" = "Olive Oil",
+      "Azúcar" = "Sugar",
+      "Cítricos" = "Citrus Fruit",
+      "Semillas oleaginosas" = "Oilseeds"
     ),
     year = marketingYear,
     memberStateCode = memberStateCode,
@@ -35,12 +35,12 @@ imports <- readRDS(here("R", "./data/dataset_agrifood_imports.rds")) |>
 exports <- readRDS(here("R", "./data/dataset_agrifood_exports.rds")) |> 
   mutate(
     sector = fct_recode(sector,
-                        "Cereales" = "Cereals",
-                        "Vino" = "Wine",
-                        "Aceite de oliva" = "Olive Oil",
-                        "Azúcar" = "Sugar",
-                        "Cítricos" = "Citrus Fruit",
-                        "Semillas oleaginosas" = "Oilseeds"
+      "Cereales" = "Cereals",
+      "Vino" = "Wine",
+      "Aceite de oliva" = "Olive Oil",
+      "Azúcar" = "Sugar",
+      "Cítricos" = "Citrus Fruit",
+      "Semillas oleaginosas" = "Oilseeds"
     ),
     year = marketingYear,
     memberStateCode = memberStateCode,
@@ -76,7 +76,7 @@ net_exports <- left_join(
   )
 
 
-# Plot --------------------------------------------------------------------
+# Plot ----------------------------------------------------------------
 
 net_exports |> 
   
@@ -90,8 +90,11 @@ net_exports |>
     flujo == "total_exports" ~ "Exportaciones"
   )) |> 
   
-  # Reorder ordena los productos según el valor de exportación para dar orden visual
-  ggplot(aes(x = reorder(sector, abs(valor)), y = valor, fill = flujo)) +
+  # Reorder ordena los productos según el valor de exportación
+  ggplot(aes(
+    x = reorder(sector, abs(valor)), 
+    y = valor, fill = flujo
+  )) +
   geom_col(width = 0.7, alpha = 0.9) +
   coord_flip() +
   scale_y_continuous(
@@ -110,11 +113,17 @@ net_exports |>
     "Exportaciones" = "#003399"
   )) +
   labs(
-    title = "Volumen de Comercio Exterior Agrícola de la UE (2022-2024)",
-    subtitle = "Comparativa de la media de Importaciones (Izquierda) frente a la media de Exportaciones (Derecha)",
+    title = paste0("Volumen de Comercio Exterior ",
+      "Agrícola de la UE (2022-2024)"
+    ),
+    subtitle = paste0("Comparativa de la media de Importaciones",
+      " (Izquierda) frente a la media de Exportaciones (Derecha)"
+    ),
     x = NULL, 
     y = "Quilogramos (kg)",
-    caption = "Elaboración propia con R. Fuente: API Agri-food Data Portal (Taxud)"
+    caption = paste0("Elaboración propia con R. ",
+      "Fuente: API Agri-food Data Portal (Taxud)"
+    )
   ) +
   theme_bw() + # Tema limpio
   theme(
@@ -123,7 +132,10 @@ net_exports |>
     panel.spacing.y = unit(1.5, "lines"),
     axis.line = element_line(color = "black", linewidth = 0.5),
     axis.ticks = element_line(color = "black"),
-    panel.border = element_rect(color = "black", fill = NA, linewidth = 0.5),
+    panel.border = element_rect(
+      color = "black", 
+      fill = NA, 
+      linewidth = 0.5),
     axis.text.x = element_text(face = "bold", size = 8),
     panel.grid.major.y = element_blank()
   ) +
