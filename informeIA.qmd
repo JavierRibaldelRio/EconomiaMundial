@@ -42,12 +42,6 @@ Los prompts enumerados a continuación, coinciden con las referencias hechas en 
 
 #### Conversaciones y preguntas {.unnumbered}
 
-[Uso de la IA para poder tener en resumen la dependencia de la PAC de diferentes países en conjunto para poder agilizar la búsqueda de información.](https://chatgpt.com/share/69205cbb-cac0-8009-b557-1fff662ad2a5)
-
-[Tipos de agricultura en las tres potencias](https://chatgpt.com/share/69283feb-d3ec-8009-9918-2762ecde2189)
-
-[Artículos científicos](https://chatgpt.com/share/692b14cd-e434-8009-a335-fdf86f2585a9)
-
 *¿Qué es el valor añadido explicado de forma simple?*
 
 #### Respuesta {.unnumbered}
@@ -396,3 +390,21 @@ Los prompts enumerados a continuación, coinciden con las referencias hechas en 
 > **Conclusión clara para tu informe:**
 > 
 > Aunque la UE exporta un volumen moderado de vino y aceite de oliva en comparación con otros sectores, es prácticamente la única gran región netamente exportadora del mundo en estos productos. Esto se explica por su posición histórica como núcleo de la vitivinicultura y el olivar, por un consumo interno elevado, por las exigentes condiciones agroclimáticas que limitan la producción fuera del Mediterráneo y por la existencia de cadenas agroindustriales y denominaciones de origen altamente especializadas y competitivas a nivel internacional.
+
+### Propmt nº 7 {.unnumbered}
+
+#### Conversación {.unnumbered}
+
+[Uso de la IA para poder tener en resumen la dependencia de la PAC de diferentes países en conjunto para poder agilizar la búsqueda de información.](https://chatgpt.com/share/69205cbb-cac0-8009-b557-1fff662ad2a5)
+
+### Prompt nº 8 {.unnumbered}
+
+#### Conversación {.unnumbered}
+
+[Tipos de agricultura en las tres potencias](https://chatgpt.com/share/69283feb-d3ec-8009-9918-2762ecde2189)
+
+### Prompt nº 9 {.unnumbered}
+
+#### Conversación {.unnumbered}
+
+[Artículos científicos](https://chatgpt.com/share/692b14cd-e434-8009-a335-fdf86f2585a9)
