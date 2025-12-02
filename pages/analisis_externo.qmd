@@ -2,17 +2,17 @@
 
 ## Balanza Comercial Agrícola
 
-Para analizar los datos de la Balanza Comercial Agrícola, nos hemos remitido a los datos del portal de datos Agrifood Europa [@agriFood], donde hemos extraido los datos aduaneros agrícolas 
+Para analizar los datos de la Balanza Comercial Agrícola, nos hemos remitido a los datos del portal de datos Agrifood Europa [@agriFood], donde hemos extraído los datos aduaneros agrícolas 
 
 Es importante destacar que las agrupaciones de cultivos de este portal no coinciden exactamente con las de *Eurostat*, por lo que hemos seleccionado aquellas con mayor correspondencia. 
 
 
 ### Exportaciones e Importaciones globales
 
-Al analizar las exportaciones frenta a las importaciones por sector \[véase @fig-butterfly-sector\], la UE destaca por exportar vinos, aceite de oliva y sobre todo cereales. En el caso del aceite de oliva, este resultado se explica porque es un producto que requiere un elevado nivel de especialización. Por este motivo, [la UE es el principal productor, exportador y consumidor mundial, algo que responde tanto a factores climáticos como a motivos históricos]{color=#00FF00} (6). [@aceite_UE].
+Al analizar las exportaciones frenta a las importaciones por sector \[véase @fig-butterfly-sector\], la UE destaca por exportar vinos, aceite de oliva y sobre todo, cereales. En el caso del aceite de oliva, este resultado se explica porque es un producto que requiere un elevado nivel de especialización. Por este motivo, [la UE es el principal productor, exportador y consumidor mundial, algo que responde tanto a factores climáticos como a motivos históricos]{color=#00FF00} (6). [@aceite_UE].
 
 
-En relación a las importaciones de semillas oleaginosas^[semillas de las cuales se extrae aceite ya sea para consumo humano o uso industrial: maíz, colza, girasol, soja...] y en menor medida el azúcar. En los últimos 3 años la UE ha importado alrededor de 52 millones de toneladas de semillas oleoginosas, esto se debe a su escasa producción interna en la UE, donde destaca Hungría \[véase @fig-peu-uni y @fig-peu\]. 
+En relación a las importaciones de semillas oleaginosas^[semillas de las cuales se extrae aceite ya sea para consumo humano o uso industrial: maíz, colza, girasol, soja...] y en menor medida el azúcar. En los últimos 3 años la UE ha importado alrededor de 52 millones de toneladas de semillas oleaginosas, esto se debe a su escasa producción interna en la UE, donde destaca Hungría \[véase @fig-peu-uni y @fig-peu\]. 
 
 
 ```{r}
@@ -32,7 +32,7 @@ En relación a las importaciones de semillas oleaginosas^[semillas de las cuales
 
 A continuación, se muestra la distribución por países \[véase @fig-butterfly-countries], de la que se observa que cada uno presenta una relación propia con los distintos productos. Mientras que algunos países en determinados sectores exportan mucho, otros importan de forma notoria, como es el caso de España y Francia.  Francia exporta cerca de 13 millones de toneladas de cereales, a la vez que España importa alrededor de 12 millones de toneladas de fuera de la UE.
 
-Al igual que en las exportaciones netas de la UE, al realizar la división por los países miembros, el sector exterior complementa aquello que el país no es capaz de producir [véase @fig-peu] y absorbe el exceso de su demanda. La @fig-butterfly-countries muestra como los países que más uvas producen (España, Francia e Italia) son los que más vino exportan, un caso similar al del aceite de oliva. El caso contrario se observa con los cítricos en los Países Bajos: aunque no producen, son los que más importan de toda la UE.
+Al igual que en las exportaciones netas de la UE, al realizar la división por los países miembros, el sector exterior complementa aquello que el país no es capaz de producir \[véase @fig-peu] y absorbe el exceso de su demanda. La @fig-butterfly-countries muestra como los países que más uvas producen (España, Francia e Italia) son los que más vino exportan, un caso similar al del aceite de oliva. El caso contrario se observa con los cítricos en los Países Bajos: aunque no producen, son los que más importan de toda la UE.
 
 ```{r}
 #| label: fig-butterfly-countries
@@ -50,7 +50,7 @@ Al igual que en las exportaciones netas de la UE, al realizar la división por l
 ### Balanza Comercial Agrícola: Análisis Económico
 
 
-Al analizar la balanza comercial agrícola, \[véase @fig-bcc\] observamos que la UE, está en déficit exterior; es decir, la E depende del sector exterior para abastecerse. No obstante, exportaciones e importaciones son muy próximas, lo que refleja el grado de integración de la EU en el comercio internacional.
+Al analizar la balanza comercial agrícola, \[véase @fig-bcc\] observamos que la UE, está en déficit exterior; es decir, la UE depende del sector exterior para abastecerse. No obstante, exportaciones e importaciones son muy próximas, lo que refleja el grado de integración de la UE en el comercio internacional.
 
 ```{r}
 #| label: fig-bcc
@@ -64,7 +64,7 @@ Al analizar la balanza comercial agrícola, \[véase @fig-bcc\] observamos que l
 
 ## La UE en el contexto agrícola internacional
 
-A pesar de que la UE es una potencia en términos de exportación de productos agrícolas, no se trata de la primera potencia en términos de producción. Como hemos visto anteriormente, la agricultura en la UE supone un 1,3% de su PIB [@wiki_eu], superado con creces por China donde el sector agrícola supone el 4,8% [@TR_china] de su PIB. Sin embargo, la producción agrícola de a UE supera a la producción agrícola de EE.UU., como su peso en el PIB (alrededor del 0,7%). [@TR_eeuu]  
+A pesar de que la UE es una potencia en términos de exportación de productos agrícolas, no se trata de la primera potencia en términos de producción. Como hemos visto anteriormente, la agricultura en la UE supone un 1,3% de su PIB [@wiki_eu], superado con creces por China donde el sector agrícola supone el 4,8% [@TR_china] de su PIB. Sin embargo, la producción agrícola de la UE supera a la producción agrícola de EE.UU., donde abarca un 0,7% del PIB total. [@TR_eeuu]  
 
 En relación a la producción, las tres potencias mundiales centran sus cultivos en los cereales (maíz y arroz en China [@FAOSTAT], maíz y trigo en EE.UU. [@FAOSTAT], y trigo en la UE), si bien sus métodos productivos son diferentes. Por un lado, en China predomina la agricultura intensiva y de regadío. Por otro lado en EE.UU. encontramos una agricultura extensiva y mecanizada. Como se ha comentado anteriormente, en la UE encontramos una dualidad donde en Europa central predomina el modelo extensivo, y en la parte mediterránea predomina el modelo intensivo [@wiki_eu]
 
