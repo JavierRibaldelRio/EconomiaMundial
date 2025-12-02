@@ -56,7 +56,7 @@ result_total |>
     size = 4
   ) +
   geom_vline(xintercept = saldo, linetype = "dashed", linewidth = 1) +
-
+  
   # *** TEXTO EN LA FILA "Saldo balanza" ***
   annotate(
     "label",
@@ -69,15 +69,20 @@ result_total |>
     fill = "white",
   ) +
   scale_fill_manual(values = colores) +
+  scale_x_continuous(
+    labels = scales::label_number(big.mark = ".", decimal.mark = ",", scale = 0.000001)
+  ) +
   labs(
-    x = "",
+    x = "Ḿillones de €",
     y = "",
     fill = "Tipo",
-    title = "Balanza Comercial",
+    title = "Balanza Comercial Agrícola",
+    subtitle = "Ejercicio fiscal 2021-2022",
     caption = "Elaboración propia con R. Fuente: API Agri-food Data Portal (Taxud)"
   ) +
   theme_bw() +
   theme(
+    legend.title = element_blank(),
     panel.spacing.y = unit(1.5, "lines"),
     axis.line = element_line(color = "black", linewidth = 0.5),
     axis.ticks = element_line(color = "black"),
