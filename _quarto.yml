@@ -7,7 +7,7 @@ project:
     port: 3000
 
 book:
-  title: "Trabajo_Grupal"
+  title: "La agricultura en la UE"
   author: 
   - Xumiao Cheng
   - Pau Minguet Micó
@@ -61,10 +61,11 @@ format:
     colorlinks: false
     template-partials:        # << reemplazamos la sección que crea la portada
     - before-body.tex
+    knitr: 
+      opts_chunk: 
+        dev: cairo_pdf
 
-knitr: 
-  opts_chunk: 
-    dev: cairo_pdf
+
 
 filters:
   - colour.lua

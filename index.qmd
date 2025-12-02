@@ -1,10 +1,20 @@
 ---
 chapter: false
 sidebar: true
+pagetitle: "Presentación"
+format: html
 ---
 
+::: {.content-visible when-format="pdf"}
 
-# {.unnumbered .unlisted}
+También disponible en nuestro sitio web <!--[]()-->
 
+:::
 
-También disponible en nuestro sitio web
+::: {.content-visible unless-format="pdf"}
+
+# Presentación {.unlisted .unnumbered}
+
+Trabajo realizado para la asignatura de Economía Mundial perteneciente al Grado en Administración y Dirección de Empresas (ADE) de la Universitat Politècnica de València (UPV).
+
+:::
