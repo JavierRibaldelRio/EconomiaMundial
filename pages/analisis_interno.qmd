@@ -28,7 +28,7 @@ Al analizar el mapa \[véase @fig-mapa-barra-prod\], como es esperable se observ
 Distribución espacial y gradación de la producción agrícola vegetal en la UE-27 (2023).
 :::
 
-Con la intención de determinar el grado de importancia de la agricultura en cada país se ha calculado el porcentaje del PIB que supone la agricultura en cada país \[véase @fig-pib\]. [Al analizar la @fig-pib se observa cómo los países con mayor valor añadido absoluto no son los que presentan un mayor peso relativo de la agricultura en el PIB. En este caso destacan economías menos desarrolladas de Europa del Este, como Rumanía y Bulgaria, así como Grecia, donde la agricultura alcanza una participación notablemente superior en la actividad económica]{color="#0000ff"} (2).
+Con la intención de determinar el grado de importancia de la agricultura en cada país se ha calculado el porcentaje del PIB que abarca en cada una \[véase @fig-pib\]. [Al analizar la @fig-pib se observa cómo los países con mayor valor añadido absoluto no son los que presentan un mayor peso relativo de la agricultura en el PIB. En este caso destacan economías menos desarrolladas de Europa del Este, como Rumanía y Bulgaria, así como Grecia, donde la agricultura alcanza una participación notablemente superior en la actividad económica]{color="#0000ff"} (2).
 
 ```{r}
 #| label: fig-pib
@@ -63,7 +63,7 @@ En relación a los cultivos \[veáse @fig-peu-uni\] se observa como los [cultivo
 
 ```
 
-Al analizar la producción por país \[véase @fig-peu\], se aprecia que gran parte de la producción proviene mayoritariamente de centro Europa (Alemania y Polonia) o del suroeste (Francia, España e Italia). Respecto al resto de países de Europa, normalmente destacan en un determinado producto, por ejemplo Hungría en los cultivos industriales (girasol, maíz, tabaco...) [@wiki_economia_hu].
+Al analizar la producción por país \[véase @fig-peu\], se aprecia que gran parte de la producción proviene mayoritariamente de centro Europa (Alemania y Polonia) o del suroeste (Francia, España e Italia). Respecto al resto de países de Europa, normalmente destacan en un determinado producto, por ejemplo, Hungría en los cultivos industriales (girasol, maíz, tabaco...) [@wiki_economia_hu].
 
 
 En el caso específico de España, se observa como a pesar de que su peso es menor en las categorías principales (cereales y forrajes de tierras arables), es líder de la UE en categorías específicas como: los cítricos, las hortalizas, las olivas o la fresa.
@@ -82,7 +82,7 @@ En el caso específico de España, se observa como a pesar de que su peso es men
 
 ```
 
-Adicionalmente, la @fig-peu nos ilustra [la dualidad del modelo agrario de europa donde coexisten dos grandes modelos productivos.]{color="#00ff00"} (5). Por un lado, el modelo extensivo basado en los cereales, los cultivos industriales y los forrajes donde destacan Francia, Alemania, Polonia y Hungría por sus grandes superficies y su clima. Por otro lado, el modelo intensivo basado en cultivos de regadío como las hortalizas, cítricos y  frutas producidas mayoritariamente en el clima mediterráneo (España, Italia y Grecia).
+Adicionalmente, la @fig-peu nos ilustra [la dualidad del modelo agrario de Europa donde coexisten dos grandes modelos productivos.]{color="#00ff00"} (5). Por un lado, el modelo extensivo basado en los cereales, los cultivos industriales y los forrajes donde destacan Francia, Alemania, Polonia y Hungría por sus grandes superficies y su clima. Por otro lado, el modelo intensivo basado en cultivos de regadío como las hortalizas, cítricos y  frutas producidas mayoritariamente en el clima mediterráneo (España, Italia y Grecia).
 
 
 
