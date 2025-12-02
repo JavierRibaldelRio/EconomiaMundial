@@ -7,7 +7,7 @@ format: html
 
 ::: {.content-visible when-format="pdf"}
 
-También disponible en nuestro sitio web <!--[]()-->
+También disponible en nuestro sitio web [https://la-agricultura-de-la-ue.netlify.app/](https://la-agricultura-de-la-ue.netlify.app/).
 
 :::
 

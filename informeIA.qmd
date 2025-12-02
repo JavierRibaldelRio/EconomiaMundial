@@ -14,7 +14,7 @@ Para la realización del trabajo de la asignatura principalmente se han utilizad
 
 En primer lugar, una vez decidida la temática y planteada la estructura del proyecto, usamos la Inteligencia Artificial (IA) para disponer de un punto de vista alternativo del planteamiento de este.
 
-Después, a lo largo del trabajo, ha sido usada para un total de **6 o 7 (revisar)** consultas, las cuales nos han ayudado a comprender y expresar mejor nuestras ideas. Además, también hemos utilizado *Copilot* para apoyarnos a la hora de formatear las gráficas con R, estableciendo un tema y una paleta de colores común para todo el proyecto. 
+Después, a lo largo del trabajo, ha sido usada para un total de 8 consultas, las cuales nos han ayudado a comprender y expresar mejor nuestras ideas. Además, también hemos utilizado *Copilot* para apoyarnos a la hora de formatear las gráficas con R, estableciendo un tema y una paleta de colores común para todo el proyecto. 
 
 ## Problemas detectados
 
@@ -403,8 +403,3 @@ Los prompts enumerados a continuación, coinciden con las referencias hechas en 
 
 [Tipos de agricultura en las tres potencias](https://chatgpt.com/share/69283feb-d3ec-8009-9918-2762ecde2189)
 
-### Prompt nº 9 {.unnumbered}
-
-#### Conversación {.unnumbered}
-
-[Artículos científicos](https://chatgpt.com/share/692b14cd-e434-8009-a335-fdf86f2585a9)

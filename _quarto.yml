@@ -12,7 +12,7 @@ book:
   - Xumiao Cheng
   - Pau Minguet Micó
   - Javier Ribal del Río
-  date-format: YY
+  date-format: YYYY
   date: "2025"
   chapters:
     - index.qmd
