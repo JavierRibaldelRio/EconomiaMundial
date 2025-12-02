@@ -2,12 +2,84 @@
 
 ## Análisis Interno {.unnumbered .unlisted}
 
-@fig-mpg (a)
+@fig-mapa-barra-prod (izquierda)
+
 ```{r}
 #| file: ../R/barras_valor_anyadido.R   # <-- sin read_chunk
-#| eval: true
+#| eval: false
 #| echo: true
-#| fig-width: 8
-#| fig-height: 8
-#| out-width: "100%"
+#| size: tiny
+#| code-line-numbers: true
+```
+
+@fig-mapa-barra-prod (derecha)
+
+```{r}
+#| file: ../R/valor_anyadido.R
+#| eval: false
+#| echo: true
+#| size: tiny
+#| code-line-numbers: true
+```
+
+@fig-pib
+
+```{r}
+#| file: ../R/porcentaje_pib.R
+#| eval: false
+#| echo: true
+#| size: tiny
+#| code-line-numbers: true
+```
+
+@fig-peu-uni
+
+```{r}
+#| file: ../R/barras_productos_eu.R
+#| eval: false
+#| echo: true
+#| size: tiny
+#| code-line-numbers: true
+```
+
+@fig-peu
+
+```{r}
+#| file: ../R/productos_eu.R
+#| eval: false
+#| echo: true
+#| size: tiny
+#| code-line-numbers: true
+```
+
+## Análisis Externo {.unnumbered .unlisted}
+
+@fig-butterfly-sector
+
+```{r}
+#| file: ../R/butterfly_sector.R
+#| eval: false
+#| echo: true
+#| size: tiny
+#| code-line-numbers: true
+```
+
+@fig-butterfly-countries
+
+```{r}
+#| file: ../R/butterfly_sector_countries.R
+#| eval: false
+#| echo: true
+#| size: tiny
+#| code-line-numbers: true
+```
+
+@fig-bcc
+
+```{r}
+#| file: ../R/balanza_comercial.R
+#| eval: false
+#| echo: true
+#| size: tiny
+#| code-line-numbers: true
 ```
