@@ -4,7 +4,7 @@ Este repositorio contiene el trabajo realizado para la asignatura de **Economía
 
 El proyecto consiste en un análisis detallado del sector agrícola en la UE, maquetado y generado dinámicamente utilizando **Quarto** y **R**.
 
-Disponible también en nuestra [web](https://la-agricultura-de-la-ue.netlify.app/)
+Disponible también en nuestra [web](https://la-agricultura-de-la-ue.netlify.app/).
 
 ## 🎯 Objetivo del Trabajo
 
@@ -23,8 +23,8 @@ Este proyecto combina análisis de datos y redacción técnica utilizando las si
 
 ## 📂 Estructura del Repositorio
 
-- `*.qmd`: Archivos fuente de Quarto donde se integra el texto y el código de R.
-- - `/R`: Gráficos generados y recursos visuales.
+- `/pages` o `*.qmd`: Archivos fuente de Quarto donde se integra el texto y el código de R.
+- `/R`: Gráficos generados y recursos visuales.
 - `/R/data`: Conjuntos de datos utilizados para el análisis (fuentes como Eurostat, Agrifood Data Portal, etc.).
 - `_quarto.yml`: Archivo de configuración del proyecto Quarto.
 
